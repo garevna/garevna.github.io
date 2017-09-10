@@ -1,99 +1,50 @@
-[
-  {
-    "passive": "/images/design.png",
-    "active": {
-      "type": "js",
-      "ref": "/js/create_galery.js",
-      "func_name": "garevna_createGalery",
-      "func_params":["/data_files/my_pictures.json"]
-    }
-  },
-  {
-    "passive": "/buttons/Bart-Simpson-PNG.png",
-    "active": {
-      "type": "button_set",
-      "ref": "/js/create_article_content.js",
-      "func_name":"create_article_content",
-      "func_params": {
-          "picture":"/Javascript/anim_gif/006.gif",
-          "picture_title":"",
-          "main_head": { "abbr": "JS", "text": "JS courseware" },
-          "buttons_width":150,
-          "data":[
-            {
-              "name":"Квест JS-2017",
-              "img":"/buttons/js_cup_1.png",
-              "sample":"",
-              "action":"window.open('/Javascript/courseware/#01','_self');",
-              "help":"Используй данные тебе жизни с пользой: набирай очки, давая правильные ответы"
-            },
-            {
-              "name":"Желтый браслет",
-              "img":"/yellow_wristband_2016/yellow-wristband.png",
-              "sample":"Для перехода на следущий уровень нужно узнать пароль, решив задание предыдущего уровня",
-              "action":"window.open('/yellow_wristband_2016/quest.html','_blank');",
-              "help":"Квест 'Желтый браслет' 2016"
-            },
-            {
-              "name":"Скоро...",
-              "img":"http://www.freeiconspng.com/uploads/bart-simpson-png-30.png",
-              "sample":"",
-              "action":"window.open('/Javascript/courseware/#03','_blank');",
-              "help":""
-            },
-            {
-              "name":"Скоро...",
-              "img":"http://www.freeiconspng.com/uploads/bart-simpson-png-30.png",
-              "sample":"",
-              "action":"window.open('/Javascript/courseware/#03','_blank');",
-              "help":""
-            },
-            {
-              "name":"Скоро...",
-              "img":"http://www.freeiconspng.com/uploads/bart-simpson-png-30.png",
-              "sample":"",
-              "action":"window.open('/Javascript/courseware/#03','_blank');",
-              "help":""
-            },
-            {
-              "name":"Скоро...",
-              "img":"http://www.freeiconspng.com/uploads/bart-simpson-png-30.png",
-              "sample":"",
-              "action":"window.open('/Javascript/courseware/#03','_blank');",
-              "help":""
-            },
-            {
-              "name":"Скоро...",
-              "img":"http://www.freeiconspng.com/uploads/bart-simpson-png-30.png",
-              "sample":"",
-              "action":"window.open('/Javascript/courseware/#03','_blank');",
-              "help":""
-            },
-            {
-              "name":"Скоро...",
-              "img":"http://www.freeiconspng.com/uploads/bart-simpson-png-30.png",
-              "sample":"",
-              "action":"window.open('/Javascript/courseware/#03','_blank');",
-              "help":""
-            }
-          ]
-        }
-    }
-  },
-  {
-    "passive": "/logos/a-level-ico.png",
-    "active": {
-      "type": "js",
-      "ref": "/snippets/disciplines.js",
-      "func_name": "garevna_disciplines",
-      "topic":"it"
-    }
-  },
-  {
-    "passive": "/images/my_photo_2.jpg",
-    "active": {
-      "type": "html",
+{
+  "id":"mainButtons",
+  "type":"buttonsWithContent",
+  "ratio": { "width": 0.8, "height": 0.8 },
+  "defaultCursor": "/cursors/gun_aim.gif",
+  "defaultWidth": "100px",
+  "defaultHeight": "100px",
+  "defaultPicture": "/buttons/education.png",
+  "objects": [
+    {
+      "picture": "/buttons/js.png",
+      "contentType": "text",
+      "ref": "/text_files/js_01.txt",
+      "func_name": "",
+      "func_params": ""
+    },
+    {
+      "picture": "/buttons/js_cup.png",
+      "contentType": "text",
+      "ref": "/text_files/js_02.txt",
+      "func_name": "",
+      "func_params": []
+    },
+    {
+      "picture": "/buttons/js.png",
+      "contentType": "text",
+      "ref": "/text_files/js_03.txt",
+      "func_name": ""
+    },
+    {
+      "picture": "/buttons/js.png",
+      "contentType": "text",
+      "ref": "/text_files/js_04.txt",
+      "func_name": "",
+      "func_params": []
+    },
+    {
+      "picture": "/buttons/js.png",
+      "contentType": "constructor",
+      "ref": "/snippets/disciplinesConstructor.js",
+      "func_name": "DisciplinesList",
+      "topic": "it"
+    },
+    {
+      "picture": "/buttons/js.png.jpg",
+      "contentType": "html",
       "ref": "/chunks/personal_info.html"
     }
-  }
-]
+  ]
+}
