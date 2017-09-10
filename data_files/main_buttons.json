@@ -1,28 +1,11 @@
 [
   {
-    "passive": "/logos/ukraine_revolution_2.png",
-    "active": {
-      "type": "js",
-      "ref": "/js/video_slider.js",
-      "func_name":"garevnaVideoSlider",
-      "func_params":"/data_files/ukrainian_music.json"
-    }
-  },
-  {
     "passive": "/images/design.png",
     "active": {
       "type": "js",
       "ref": "/js/create_galery.js",
       "func_name": "garevna_createGalery",
       "func_params":["/data_files/my_pictures.json"]
-    }
-  },
-  {
-    "passive": "/buttons/publications.png",
-    "active": {
-      "type": "js",
-      "ref": "/snippets/scientific_papers.js",
-      "func_name": "garevna_papers"
     }
   },
   {
@@ -98,7 +81,7 @@
     }
   },
   {
-    "passive": "/logos/step-logo.png",
+    "passive": "/logos/a-level-ico.png",
     "active": {
       "type": "js",
       "ref": "/snippets/disciplines.js",
