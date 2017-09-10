@@ -1,0 +1,18 @@
+{
+  "computer": {
+    "main_image": "/buttons/js_cup_1.png",
+    "title": "JS",
+    "button_images": [
+      "/buttons/js_cup_1.png"
+    ],
+    "small_button_image":"/buttons/calendar.png",
+    "hash_prefix": [""],
+    "hash_vals":[["01"]],
+    "url": [
+      "/Javascript/courseware/"
+    ],
+    "txt": [
+      "JavaScript"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "container": {
+    "styles":{
+        "attributes":[ "font-family", "font-size" ],
+        "values": [ "Arial", "14px" ]
+      }
+  },
+  "elements":[
+    {
+      "tagName":"img",
+      "tagAttributes":{
+        "names":["src"],
+        "values":["/images/my_photo_2.jpg"]
+      },
+      "minWidth":150,
+      "maxWidth":200,
+      "className":"fixed",
+      "place":"topLeftCorner",
+      "styles":{
+        "attributes":["top","left","width","height"],
+        "values": [10,10,150,"auto"]
+      },
+      "content":""
+    },
+    {
+      "tagName":"div",
+      "minWidth":250,
+      "className":"flex",
+      "styles":{
+        "attributes":["text-align"],
+        "values": ["left"]
+      },
+      "content":"<b>Irina H. Filippova</b><br/>PhD of economics, Docent<br/>Lugansk National Agrarian University (Kharkiv, Ukraine)<br/><hr />"
+    },
+    {
+      "tagName":"div",
+      "minWidth":250,
+      "className":"flex",
+      "styles":{
+        "attributes":["text-align"],
+        "values": ["right"]
+      },
+      "content":"<b>Research interests:</b><br/>Institutional theory<br/>The development of socio-economic systems<br/>Management & Governance<hr/>"
+    },
+    {
+      "tagName":"div",
+      "minWidth":250,
+      "className":"flex",
+      "styles":{
+        "attributes":["text-align"],
+        "values": ["left"]
+      },
+      "content":"<b>Филиппова Ірина Гаріївна</b><br/>кандидат економічних наук, доцент<br/>доцент Луганського національного аграрного<br/>університету (Харків)<br/>Україна<hr />"
+    },
+    {
+      "tagName":"div",
+      "minWidth":250,
+      "className":"flex",
+      "styles":{
+        "attributes":["text-align"],
+        "values": ["right"]
+      },
+      "content":"<b>Сфера наукових інтересів:</b><br/>Інституціональна теорія<br />Розвиток соціально-економічних систем<br/>Розподілена система прийняття рішень<br/>"
+    },
+    {
+      "tagName":"img",
+      "tagAttributes":{
+        "names":["src"],
+        "values":["/images/authorship_certificate.png"]
+      },
+      "minWidth":200,
+      "className":"fixed",
+      "place":"rightCol",
+      "styles":{
+        "attributes":["bottom","right","width","height" ],
+        "values": [0,10,200,"auto"]
+      },
+      "content":""
+    },
+    {
+      "tagName":"div",
+      "tagAttributes":{
+        "names":["title"],
+        "values":["Open Researcher and Contributor ID"]
+      },
+      "minWidth":120,
+      "className":"fixed",
+      "place":"bottomRow",
+      "styles":{
+        "attributes":["bottom","left","width","height","background-color","color"],
+        "values": [0,0,120,30,"black","white"]
+      },
+      "content":"orcid.org/0000-0003-4494-6191"
+    }
+  ]
+}

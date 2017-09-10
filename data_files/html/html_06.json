@@ -1,0 +1,130 @@
+{
+  "page_title": "html&CSS | Занятие 6",
+  "meta_descr": "html&CSS: Гиперссылки. Навигация",
+  "meta_keywords": "html,гиперссылки,href,target,active,hover,visited,image-map,навигация,url",
+  "functions": [
+    {
+      "type":"function",
+      "url": "/snippets/html/module_06.js",
+      "func_name": "garevna_html_06",
+      "lib_content": [
+        "usermap",
+        "pseudoclasses",
+        "task",
+        "image_map_picture",
+        "image_map_attribs",
+        "homework"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "create_browser_window",
+        "getCssAttrValBySelector",
+        "setCssAttrValBySelector",
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    }
+  ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ],
+  "clear_function":"garevna_html_css_library.clear",
+  "styles": ".ico { width:20px; height:20px; display:inline; margin:0 8px; }  .browser_win {background-image:url(/images/fon.gif); width:80%; margin-left:2%; margin-top:1%; padding:30px; border:groove 2px white; border-radius:4px; box-shadow:inset 4px 4px 4px rgba(0,0,0,0.5);",
+  "menu_title": "Навигация",
+  "src": [
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_06",
+      "func_name": "pseudoclasses",
+      "folder_name": "Гиперссылки",
+      "item_name": "Псевдоклассы",
+      "button_type": "settings"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-06/parent_frame.html",
+      "folder_name": "Гиперссылки",
+      "item_name": "Атрибут target",
+      "button_type": "settings"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-06/refs_inner.html",
+      "folder_name": "Гиперссылки",
+      "item_name": "Навигация по странице",
+      "button_type": "lecture"
+    },
+    {
+      "type": "swf",
+      "url": "/swf/html/mod-06/relative_links.swf",
+      "folder_name": "Относительная адресация",
+      "item_name": "Атрибут href",
+      "button_type": "flash"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_06",
+      "func_name": "task",
+      "folder_name": "Гиперссылки",
+      "item_name": "Задание",
+      "button_type": "work"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-06/work.html",
+      "folder_name": "Гиперссылки",
+      "item_name": "Рабочее окно",
+      "button_type": "process"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_06",
+      "func_name": "usermap",
+      "folder_name": "Изображения-карты ссылок",
+      "item_name": "image-map",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_06",
+      "func_name": "image_map_attribs",
+      "folder_name": "Изображения-карты ссылок",
+      "item_name": "Атрибуты тегов",
+      "button_type": "lecture"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_06",
+      "func_name": "image_map_picture",
+      "folder_name": "Изображения-карты ссылок",
+      "item_name": "Подготовка изображений",
+      "button_type": "lecture"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_06",
+      "func_name": "homework",
+      "folder_name": "Задание на дом",
+      "item_name": "image-map",
+      "button_type": "homework"
+    }
+  ]
+}

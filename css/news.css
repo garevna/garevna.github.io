@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+/* News */
+#news { position:absolute; top:5%; left:5% }
+.paper {
+	background-image:url(/images/news.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	max-width:80%;
+	min-width:300px;
+}
+.paper:hover {
+	/* -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg); */
+	transform-origin: 0px 0px;
+	-webkit-animation-name: stagger;
+    -webkit-animation-duration: 900ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: stagger;
+    -moz-animation-duration: 900ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: stagger;
+    -ms-animation-duration: 900ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: stagger;
+    animation-duration: 900ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.news_content
+{
+	padding:10px 20px 20px 20px;
+	max-width:300px;
+}
+.news_header {  }
+.news_text { height:150px; overflow:auto; }
+.news_content p { font-size:95%; }
+.news_content img { width:10%; height:10% }
+@media screen and (min-width: 468px) and (max-width: 728px) {
+
+       .news_content p { font-size:90%; }
+       .news_content .green, .news_content .magenta { font-size:95%; }
+       .news_content h1 { font-size:130%; }
+       .news_content h2 { font-size:120%; }
+       .news_content h3 { font-size:100%; }
+}
+@media screen and (max-width: 468px) {
+
+       .news_content p { font-size:80%; }
+       .news_content .green, .news_content .magenta { font-size:90%; }
+       .news_content h1 { font-size:120%; }
+       .news_content h2 { font-size:110%; }
+       .news_content h3 { font-size:90%; }
+}
+/* ============================================= */
+@-ms-keyframes stagger {
+    0% { -ms-transform: rotate(0deg); }
+    50% { -ms-transform: rotate(-15deg); }
+	100% { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes stagger {
+    0% { -moz-transform: rotate(0deg); }
+    50% { -moz-transform: rotate(-15deg); }
+	100% { -moz-transform: rotate(0deg); }
+}
+@-webkit-keyframes stagger {
+    0% { -webkit-transform: rotate(0deg); }
+    50% { -webkit-transform: rotate(-15deg); }
+	100% { -webkit-transform: rotate(0deg); }
+}
+@keyframes stagger {
+    0% { transform:rotate(0deg);  }
+    50%   { transform:rotate(-15deg); }
+	100% { transform:rotate(0deg);  }
+}

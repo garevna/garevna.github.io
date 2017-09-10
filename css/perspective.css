@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body  {  background-color:black;  }
+#main_perspective  {  position:fixed; top:0; left:0; right:0; bottom:0;  }
+.garevna_perspectiveContainer {
+    position: fixed;
+    box-sizing:border-box;
+    box-shadow:inset 0px 0px 30px rgba(0,150,255,0.7);
+    -webkit-perspective:80px;
+    -webkit-perspective-origin: 50% 50%;
+    -webkit-transform-style: preserve-3d;
+    perspective:80px;
+    perspective-origin: 50% 50%;
+    transform-style: preserve-3d;
+}
+.garevna_perspectiveCenterSide {
+    box-shadow:inset 0px 0px 20px rgba(0,0,0,0.7);
+}
+.garevna_perspectiveBottomSide, .garevna_perspectiveRightSide, .garevna_perspectiveLeftSide, .garevna_perspectiveTopSide, .garevna_perspectiveCenterSide {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+	box-sizing:border-box;
+    background-size:cover;
+	background-position:center center;
+    background-repeat:no-repeat;
+    backface-visibility: visible;
+}
+.garevna_perspectiveBottomSide {
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+}
+.garevna_perspectiveTopSide {
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) matrix(1, 0, 0, -1, 0, 0);
+    transform: rotateX(90deg) rotateY(0deg) rotateZ(0deg) matrix(1, 0, 0, -1, 0, 0);
+	backface-visibility: visible;
+}
+.garevna_perspectiveRightSide {
+	-webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+	-webkit-transform: rotateX(45deg) rotateY(90deg) rotateZ(45deg);
+    transform: rotateX(45deg) rotateY(90deg) rotateZ(45deg);
+}
+.garevna_perspectiveLeftSide {
+	-webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+	-webkit-transform: rotateX(45deg) rotateY(90deg) rotateZ(45deg) matrix(-1, 0, 0, 1, 0, 0);
+    transform: rotateX(45deg) rotateY(90deg) rotateZ(45deg) matrix(-1, 0, 0, 1, 0, 0);
+	backface-visibility: visible;
+}

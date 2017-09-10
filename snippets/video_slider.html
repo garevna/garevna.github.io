@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+<script src="http://mediaelementjs.com/js/mejs-2.9.2/mediaelement-and-player.min.js"></script>
+<link rel="stylesheet" href="http://mediaelementjs.com/js/mejs-2.9.2/mediaelementplayer.min.css" />
+<!-- my media library-->
+<script src="/js/garevna_media_library.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/css/styles_new.css">
+<!-- GSAP -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/plugins/CSSPlugin.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/easing/EasePack.min.js"></script>
+</head>
+
+<body></body>
+
+<script>
+var garevna_lib = garevna_media_library();
+var garevna_slider = (function () {
+	var slider_content;
+	var slider = document.createElement('div');
+	document.getElementsByTagName('body').item(0).style.backgroundColor = 'black';
+	document.getElementsByTagName('body').item(0).style.overflowX = 'hidden';
+	document.getElementsByTagName('body').item(0).appendChild(slider);
+	var navigation_panel, navi_elements, spins, home_button, comments;
+	var current_slide_num = 0;
+	var $width, $height;
+	var current_slide = document.createElement('figure');
+	var previous_slide = document.createElement('figure');
+	var next_slide = document.createElement('figure');
+	slider.appendChild(current_slide);
+	slider.appendChild(previous_slide);
+	slider.appendChild(next_slide);
+	// =========================================================================================== loadData
+	var loadData = (function () {
+		if (window.XMLHttpRequest) {
+			requestJSON = new XMLHttpRequest();
+		}
+		else {
+			requestJSON = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		requestJSON.onreadystatechange = function() {
+			if (requestJSON.readyState == 4 && requestJSON.status == 200) {
+				var $data = JSON.parse(requestJSON.responseText);
+				slider_content = $data.music;
+				create_video_player ();
+				set_video_size ();
+				buildNavigationPanel ();
+				buildHomeButton ($data.homeButton);
+				comments = garevna_lib.create_comments_line();
+				slider.appendChild(comments);
+			}
+			else if (requestJSON.status == 404 && requestJSON.readyState == 4) {
+				alert("Извините, файл не обнаружен");
+				return;
+			}
+		}
+		var _url = location.hash.substr(1,location.hash.length);
+		//_url = '/json/ukrainian_music.json';
+		requestJSON.open("GET", _url, true);
+		requestJSON.send();
+	})();
+	// =========================================================================================== buildNavigationPanel
+	function buildNavigationPanel () {
+		navigation_panel = garevna_lib.create_navigation_panel();
+		slider.appendChild(navigation_panel);
+		navi_elements = document.createElement('nav');
+		navigation_panel.appendChild(navi_elements);
+		var $but = garevna_lib.createNaviButton('prev');
+		$but.onclick = function () {
+			if (current_slide_num == 0) {
+				return null;
+			}
+			change_slide ('prev');
+		}
+		navi_elements.appendChild($but);
+			  
+		spins = document.createElement('span');
+		spins.innerHTML = garevna_lib.init_spin (current_slide_num, slider_content.length);
+		navi_elements.appendChild(spins);
+			  
+		$but = garevna_lib.createNaviButton('next');
+		navi_elements.appendChild($but);
+		$but.onclick = function () {
+			if (current_slide_num == slider_content.length-1) {
+				return null;
+			}
+			change_slide ('next');
+		}
+		navi_elements.style.marginLeft = garevna_lib.getNaviMarginLeft(slider_content.length);
+	}
+	// =========================================================================================== buildHomeButton
+	function buildHomeButton (homeButton) {
+		home_button = garevna_lib.create_home_button();
+		navigation_panel.appendChild(home_button);
+		home_button._url = homeButton;
+		home_button.className = 'homeButton';
+		home_button.onclick = function () {
+			window.open(home_button._url, '_self');
+		}
+	}
+	// =========================================================================================== set_video_size
+	function set_video_size () {
+		$width = Math.min(window.innerWidth*0.8, window.innerHeight*0.8*1.7777778);
+		$height = Math.min(window.innerHeight*0.8, window.innerWidth*0.8/1.7777778);
+		var arr = document.getElementsByTagName('figure');
+		var i;
+		for (i=0; i<arr.length; i++) {
+			arr[i].style.width = $width + 'px';
+			arr[i].style.height = $height + 'px';
+			arr[i].style.position = 'absolute';
+			arr[i].style.top = '0';
+			arr[i].style.left = '0';
+			arr[i].style.marginTop = (window.innerHeight - $height)/2 + 'px';
+			arr[i].style.marginLeft = (window.innerWidth - $width)/2 + 'px';
+		}
+		next_slide.style.marginLeft = (window.innerWidth + 100) + 'px';
+		previous_slide.style.marginLeft = -(window.innerWidth + 100) + 'px';
+	}
+	// =========================================================================================== create_video_player
+	function create_video_player () {
+		var $video = slider_content[current_slide_num].content;
+		var video_container = document.createElement('div');
+		video_container.id = "container";
+		video_container.style.width = "100%";
+		video_container.style.height = "100%";
+		var html = '<video style="width:100%; height:100%;" width="100%" height="100%" controls id="player">';
+		html += '<source id="video_sourse" src="http://www.youtube.com/watch?v=' + $video;
+		html += '" type="video/youtube"></video>';
+		video_container.innerHTML = html;
+		current_slide.appendChild(video_container);
+		var player = new MediaElementPlayer('#player');
+		return 
+	}
+	// =========================================================================================== change_slide
+	function change_slide (dir) {
+		var lim = (dir == 'next')?(slider_content.length-1):(0);
+		var w = (window.innerWidth - $width)/2 + 'px';
+		var newSlide = (dir == 'next')?(next_slide):(previous_slide);
+		if (current_slide_num == lim) {
+				return null;
+		}
+		current_slide_num = (dir == 'next')?(current_slide_num+1):(current_slide_num-1);
+		newSlide.innerHTML = current_slide.innerHTML;
+		current_slide.innerHTML = '';
+		create_video_player ();
+		var offset = window.innerWidth + 100;
+		var offset_out = (dir == 'next')?((0-offset) + 'px'):(offset + 'px');
+		var offset_in = (dir == 'next')?(offset + 'px'):((0-offset) + 'px');
+		TweenLite.fromTo(current_slide, 1.5, { marginLeft:offset_in, opacity:'0' },
+			                                 { marginLeft:w, opacity:'1' });
+		TweenLite.fromTo(newSlide, 1.5,  { marginLeft:w, opacity:'1' },
+			                             { marginLeft:offset_out, opacity:'0',
+										   onComplete: function () { newSlide.innerHtml = ''; }
+		});
+		spins.innerHTML = garevna_lib.init_spin (current_slide_num, slider_content.length);
+		comments.innerHTML = slider_content[current_slide_num].txt;
+	}
+	
+	return {
+		resize_slider: function () {
+			set_video_size ();
+			if (slider_content) {
+				navi_elements.style.marginLeft = garevna_lib.getNaviMarginLeft(slider_content.length);
+			}
+		}
+	}
+})();
+
+if (window.addEventListener) {              
+        window.addEventListener("resize", garevna_slider.resize_slider);
+        window.addEventListener("load", garevna_slider.resize_slider);
+} else if (window.attachEvent) {                 
+        window.attachEvent("onresize", garevna_slider.resize_slider);
+        window.attachEvent("onload", garevna_slider.resize_slider);
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>
+

@@ -1,0 +1,127 @@
+{
+  "page_title": "html&CSS courseware",
+  "meta_descr": "CSS3 multiply backgronds: courseware (sample)",
+  "meta_keywords": "html5,css3, backgrond, background-origin, background-blend-mode, background-clip, mix-blend-mode",
+  "functions": [{
+      "type": "function",
+      "url": "/snippets/html/module_05.js",
+      "func_name": "garevna_html_05",
+      "lib_content": [
+        "css_background",
+        "background_image",
+        "tag_image",
+        "body_image",
+        "homework"
+      ]
+    },
+    {
+      "type": "library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "create_browser_window",
+        "getCssAttrValBySelector",
+        "setCssAttrValBySelector",
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    },
+    {
+      "type": "library",
+      "url": "/js/slider_library.js",
+      "lib_name": "garevna_sliderLibrary",
+      "lib_content": [
+        "load_data",
+        "buildNavigationPanel",
+        "resize_navi",
+        "getSlidesNumber",
+        "getCurrentSlide"
+      ]
+    },
+    {
+      "type": "function",
+      "url": "/js/image_slider.js",
+      "func_name": "garevnaImageSlider",
+      "params": "/data_files/ai/img_03.json"
+    },
+    {
+      "type": "function",
+      "url": "/js/create_galery.js",
+      "func_name": "garevna_createGalery",
+      "params": "/data_files/galery_images.json"
+    }
+  ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ],
+  "clear_function":"garevna_html_css_library.clear",
+  "styles": "#block-1, #block-2, #block-3, #block-4 { width:20%; height:100px; color:white; border:ridge 2px white; padding:10px; box-shadow:5px 5px 5px rgba(0,0,0,0.7); } .browser_win {background-image:url(/images/fon.gif); width:80%; margin-left:2%; margin-top:1%; padding:30px; border:groove 2px white; border-radius:4px; box-shadow:inset 4px 4px 4px rgba(0,0,0,0.5);",
+  "menu_title": "CSS transform",
+  "src": [
+    {
+      "type": "object",
+      "func_name": "garevna_createGalery",
+      "func_params": [
+        "/data_files/galery_images.json",
+        "garevna_image_galery"
+      ],
+      "folder_name": "Библиотеки",
+      "item_name": "Изображения",
+      "button_type": "design"
+    },
+    {
+      "type": "object",
+      "func_name": "garevna_createGalery",
+      "func_params": ["/data_files/fon_images.json","garevna_fones_galery"],
+      "folder_name": "Библиотеки",
+      "item_name": "Фоновые изображения",
+      "button_type": "design"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/1Lb4qsgk/",
+      "folder_name": "Песочница",
+      "item_name": "Multiply backgrounds",
+      "button_type": "jsfiddle",
+      "hlp_txt":"Использование нескольких фоновых изображений для одного элемента"
+    },
+    {
+      "type": "window",
+      "url": "https://jsbin.com/lezecaq/edit?html,output",
+      "folder_name": "Песочница",
+      "item_name": "Multiply backgrounds",
+      "button_type": "jsbin",
+      "hlp_txt":"Использование нескольких фоновых изображений для одного элемента"
+    },
+    {
+      "type": "window",
+      "url": "http://html.editey.com/file/0BxaMB69y7fvSbENHbVVMMG16Unc",
+      "folder_name": "html-editey",
+      "item_name": "CSS3",
+      "button_type": "editey"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/rh5Lg75d/1/",
+      "folder_name": "Песочница",
+      "item_name": "CSS3 pointer-events",
+      "button_type": "jsfiddle",
+      "hlp":"Блокировка событий интерфейса на элементе. Блокировка выделения текста элемента"
+    }
+  ],
+  "news": []
+}

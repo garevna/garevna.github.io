@@ -1,0 +1,30 @@
+{
+  "galery_name": "html&CSS | Занятие 11",
+  "galery_author": "Филиппова Ирина Гариевна",
+  "images": [
+    {
+      "url": "/html-css/module-11/images/work-0.png",
+      "comment": "Изменение DNS"
+    },
+    {
+      "url": "/html-css/module-11/images/work-1.png",
+      "comment": "Изменение DNS"
+    },
+    {
+      "url": "/html-css/module-11/images/work-2.png",
+      "comment": "Изменение DNS"
+    },
+    {
+      "url": "/html-css/module-11/images/work-3.png",
+      "comment": "Изменение DNS"
+    },
+    {
+      "url": "/html-css/module-11/images/work-4.png",
+      "comment": "Изменение DNS"
+    },
+    {
+      "url": "/html-css/module-11/images/work-5.png",
+      "comment": "Изменение DNS"
+    }
+  ]
+}

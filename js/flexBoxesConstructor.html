@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="/logos/a-level-ico.png" type="image/x-icon">
+<title>Flex</title>
+</head>
+
+<body>
+<script>
+	window.EventListenersRegistry = function () {
+		this.list = [];
+		var __listener__ = ( function () { var counter = 0; return function () { return counter++; } } ) ();
+		this.addListener = function ( args ) {
+			this.list [  __listener__ () ] = {
+				eventTarget: arguments [0],
+				eventType: arguments [1],
+				eventHandler: arguments [2]
+			};
+		};
+	};
+	window.onload = function ( event ) {
+		if ( !window.CustomEvent ) {
+			console.info ( "Ваш браузер не поддерживает CustomEvent" );
+			window.CustomEvent = function ( eventType, eventDetails ) {
+				var newEvent = document.createEvent ( 'Event' );
+				newEvent.initEvent ( eventType );
+				if ( eventDetails ) console.log ( eventDetails.details );
+				newEvent.details = eventDetails ? eventDetails.details : null;
+				console.log ( newEvent );
+				return newEvent;
+			}
+		}
+	}
+	var windowEventListenersRegistry = new EventListenersRegistry ();
+	window.registerListener = function ( argList ) {
+		var elem = arguments [0];
+		var eventType = arguments [1];
+		var handler = arguments [2];
+		windowEventListenersRegistry.addListener ( elem, eventType, handler );
+		elem.addEventListener ( eventType, handler );
+	}
+	Event.prototype.registerEventListener = function ( params ) {
+		alert ( 'register Event' );
+	}
+    function FlexBoxesConstructor ( dataURL, parent_node ) {
+		
+		this.__parent__ = parent_node || document.body;
+		this.__parent__.controller = this;
+		this.__parent__.style.WebkitPerspective = "80px";
+    	this.__parent__.style.WebkitPerspectiveOrigin = "50% 50%";
+    	this.__parent__.style.WebkitTransformStyle = "preserve-3d";
+		this.__parent__.style.perspective = "80px";
+    	this.__parent__.style.perspectiveOrigin = "50% 50%";
+    	this.__parent__.style.transformStyle = "preserve-3d";
+		
+		this.__parent__.style.overflow = "hidden";
+		
+		this.maxMinWidth = 0;
+		
+		this.__dispetcher__ = document.createElement ( 'div' );
+		this.__parent__.appendChild ( this.__dispetcher__ );
+		this.__dispetcher__.className = "dispetcher";
+		this.__dispetcher__.controller = this;
+		registerListener ( this.__dispetcher__, 'readydata', function initFlexContainer ( event ) {
+			console.log ( event.details );
+			event.target.controller.buildFlexContainer ( event.details );
+		});
+		this.loadData ( dataURL );		
+	}
+	
+	registerListener ( window, 'resize', function winResize ( event ) {
+		
+    	var _event = new CustomEvent ( '_resize' );
+    	var elems = document.getElementsByClassName ( 'flex' );
+    	for ( var i = 0; i < elems.length; i++ ) { elems [i].dispatchEvent ( _event ); }
+	});
+	
+	// ====================================================================================================
+	//                                     P R O T O T Y P E
+	// ====================================================================================================
+	FlexBoxesConstructor.prototype.dataCallback = function ( $data ) {
+		//console.dir ( Event );
+		//if ( Event.CustomEvent ) { var _event = new CustomEvent ( 'readydata', { detail: $data } ); }
+		//else {
+		//	var _event = document.createEvent('Event');
+		//	_event.initEvent( 'readydata', true, true);
+		//	_event.detail = $data;
+		//}
+		var _event = new CustomEvent ( 'readydata', { details: $data } );
+		this.__dispetcher__.dispatchEvent ( _event );
+	}
+	FlexBoxesConstructor.prototype.loadData = function ( sourceURL ) {
+		var worker = new Worker ( '/js/json_loader.js' );
+		worker.postMessage ( sourceURL );
+		worker.data = null;
+		worker.callback = this.dataCallback.bind ( this );
+		worker.onmessage = function ( e ) { this.callback ( e.data ); worker.terminate (); }
+	}
+	
+	FlexBoxesConstructor.prototype.fixedAreaNames = [ "topRow", "bottomRow", "leftCol", "rightCol", "topLeftCorner", "topRightCorner", "bottomLeftCorner", "bottomRightCorner" ];
+	FlexBoxesConstructor.prototype.fixedAreaStyles = [
+		[ { name: 'top',    val: "0" }, { name: 'left',  val: "0" }, { name: 'width',  val: '100%' } ],
+		[ { name: 'bottom', val: "0" }, { name: 'left',  val: "0" }, { name: 'width',  val: '100%' } ],
+		[ { name: 'top',    val: "0" }, { name: 'left',  val: "0" }, { name: 'height', val: '100%' } ],
+		[ { name: 'top',    val: "0" }, { name: 'right', val: "0" }, { name: 'height', val: '100%' } ],
+		[ { name: 'top',    val: "0" }, { name: 'left',  val: "0" } ],
+		[ { name: 'top',    val: "0" }, { name: 'right', val: "0" } ],
+		[ { name: 'bottom', val: "0" }, { name: 'left',  val: "0" } ],
+		[ { name: 'bottom', val: "0" }, { name: 'right', val: "0" } ]
+	];
+	FlexBoxesConstructor.prototype.fixedAreaScroll = [ 'top', 'bottom', 'top', 'top', 'top', 'top', 'bottom', 'bottom' ];
+	
+	FlexBoxesConstructor.prototype.buildFixedArea = function () {
+		
+		this.fixedAreas = {};
+		for ( var j = 0; j < this.fixedAreaNames.length; j++ ) {
+			
+			this.fixedAreas [ this.fixedAreaNames [j] ] = document.createElement( 'div' );
+			var elem = this.fixedAreas [ this.fixedAreaNames [j] ];
+			elem.className = 'fixed';
+			elem.style.position = 'absolute';
+			elem.style.boxSizing = 'border-box';
+			var styles = this.fixedAreaStyles [j];
+			for ( var i = 0; i < styles.length; i++ ) {
+				elem.style [ styles [i].name ] = styles [i].val;
+			}
+			this.__parent__.appendChild ( elem );
+		}
+	}
+	FlexBoxesConstructor.prototype.buildFlexElement = function ( __element__ ) {
+		var test = document.createElement ( 'div' );
+		test.style.display = "inline-block";
+		test.innerHTML = __element__.data.content;
+		document.body.appendChild ( test );
+		__element__.data.maxWidth = test.offsetWidth;
+		document.body.removeChild ( test );
+		__element__.style.display = "inline-block";
+	}
+	FlexBoxesConstructor.prototype.buildFixedElement = function ( __element__ ) {
+		
+		var ind = this.fixedAreaNames.indexOf ( __element__.data.place );
+		if ( ind < 0 ) return false;
+		this.fixedAreas [ this.fixedAreaNames [ ind ] ].appendChild ( __element__ );
+		
+		var w = __element__.data.styles.attributes.indexOf ( "width" );
+		var h = __element__.data.styles.attributes.indexOf ( "height" );
+		__element__.width =  ( w < 0 ) ? 'auto' : __element__.data.styles.values [ w ];
+		__element__.height = ( h < 0 ) ? 'auto' : __element__.data.styles.values [ h ];
+	}
+	
+	FlexBoxesConstructor.prototype.buildElement = function ( elem_data ) {
+		
+		var __element__ = document.createElement ( elem_data.tagName );
+		
+		__element__.style.margin = '0';
+		__element__.data = elem_data;
+		
+		this.maxMinWidth = Math.max ( __element__.data.minWidth, this.maxMinWidth );
+		
+		if ( elem_data.styles.attributes.indexOf ( 'padding' ) < 0 ) { __element__.style.padding = "10px 20px"; }
+		
+		if ( elem_data.content ) __element__.innerHTML = elem_data.content;
+		__element__.className = elem_data.className;
+		if ( elem_data.tagAttributes ) {
+			for ( var n = 0; n < elem_data.tagAttributes.names.length; n++ ) {
+				__element__.setAttribute( elem_data.tagAttributes.names [n], elem_data.tagAttributes.values [n] );
+			}
+		}
+		var attrs = [ 'width', 'height', 'top', 'left', 'bottom', 'right' ];
+		for ( var j = 0; j < elem_data.styles.attributes.length; j++ ) {
+				var atr = elem_data.styles.attributes [j];
+				__element__.style [ atr ] = elem_data.styles.values [j];
+				__element__.style [ atr ] += ( attrs.indexOf ( atr ) < 0 ) ? '' : 'px';
+		}
+		__element__.style.boxSizing = 'border-box';
+		
+		if ( elem_data.className == 'flex' )  {
+			this.buildFlexElement ( __element__ );
+			registerListener ( __element__, '_resize', function setFlexBoxSize ( event ) {
+					var _width = Math.round ( event.target.parentNode.offsetWidth * 0.48 );
+					if ( _width < event.target.data.minWidth ) {
+						event.target.style.width = event.target.parentNode.offsetWidth - 20 + "px";
+					} else { event.target.style.width = _width + "px"; }
+			});
+		}
+		if ( elem_data.className == 'fixed' ) { this.buildFixedElement ( __element__ ); }
+		
+		return __element__;
+	}
+	
+	FlexBoxesConstructor.prototype.buildFlexContainer = function ( data ) {
+		console.log ( data );
+		this.buildFixedArea ();
+		
+		for ( var k = 0; k < data.container.styles.attributes.length; k++ ) {
+			//if ( attrs.indexOf ( this.__parent__.style [ data.container.styles.attributes [k] ]) < 0 ) {
+				this.__parent__.style [ data.container.styles.attributes [k] ] = data.container.styles.values [k];
+			//}
+		}
+		this.__elements__ = [];
+		
+		for ( var i = 0; i < data.elements.length; i++ ) {
+			
+			this.__elements__ [i] = this.buildElement ( data.elements [i] );
+			
+		}
+		this.marginContent = {
+				top: Math.max ( this.fixedAreas.topRow.offsetHeight,
+								this.fixedAreas.topLeftCorner.offsetHeight,
+								this.fixedAreas.topRightCorner.offsetHeight ),
+				left: Math.max ( this.fixedAreas.leftCol.offsetWidth,
+								this.fixedAreas.topLeftCorner.offsetWidth,
+								this.fixedAreas.bottomLeftCorner.offsetWidth ),
+				bottom: Math.max ( this.fixedAreas.bottomRow.offsetHeight,
+								this.fixedAreas.bottomLeftCorner.offsetHeight,
+								this.fixedAreas.bottomRightCorner.offsetHeight ),
+				right: Math.max ( this.fixedAreas.rightCol.offsetWidth,
+								this.fixedAreas.topRightCorner.offsetWidth,
+								this.fixedAreas.bottomRightCorner.offsetWidth )
+		};
+		this.flexContent = document.createElement ( 'div' );
+		this.__parent__.appendChild ( this.flexContent );
+		this.flexContent.style.position = "absolute";
+		this.flexContent.style.top = this.marginContent.top + "px";
+		this.flexContent.style.left = this.marginContent.left + "px";
+		this.flexContent.style.bottom = this.marginContent.bottom + "px";
+		this.flexContent.style.right = this.marginContent.right + "px";
+		this.flexContent.style.overflow = "auto";
+			
+		for ( var k = 0; k < this.__elements__.length; k++ ) {
+			if ( this.__elements__ [k].className == 'flex' ) {
+				this.flexContent.appendChild ( this.__elements__ [k] );
+			}
+		}
+		this.initSections ();
+	}
+		
+	FlexBoxesConstructor.prototype.initSections = function () {
+  			var elems = this.flexContent.getElementsByClassName ( 'flex' );
+  			var _event = new CustomEvent ( '_resize' );
+  			for ( var i = 0; i < elems.length; i++ ) { elems [i].dispatchEvent ( _event ); }
+	}
+	
+		//this.__parent__.style.position = 'absolute';
+		//this.__parent__.style.boxSizing = 'border-box';
+		//this.__parent__.style.top = '0';
+		//this.__parent__.style.bottom = '0';
+		//this.__parent__.style.left = '0';
+		//this.__parent__.style.right = '0';
+		//this.__parent__.style.overflowX = 'hidden';
+		//this.__parent__.style.overflowY = 'auto';
+	
+	
+	
+	
+	
+	
+	var container = document.createElement ( 'section' );
+	container.style.position = "fixed";
+	container.style.boxSizing = "border-box";
+	container.style.top = "10%";
+	container.style.left = "10%";
+	container.style.bottom = "10%";
+	container.style.right = "10%";
+	container.style.borderRadius = "5px";
+	container.style.border = "ridge 2px white";
+	container.style.boxShadow = "inset 4px 4px 5px rgba(0,0,0,0.5)";
+	container.style.overflowX = "hidden";
+	container.style.overflowY = "auto";
+	
+	document.body.appendChild ( container );
+	var content = new FlexBoxesConstructor ( '/data_files/testFlexBoxesConstructor.json', container );
+</script>
+</body>
+</html>

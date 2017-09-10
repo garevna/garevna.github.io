@@ -1,0 +1,16 @@
+{
+  "homeButton":"/animated_buttons.html#/json/main_buttons.json",
+  "videoList":
+[
+  {
+    "type":"video",
+    "content":"9uAM2SSS2A4",
+    "txt":"Структура документа | Инструменты разработчика"
+  },
+  {
+    "type":"video",
+    "content":"W-T0ExL_6m0",
+    "txt":"Структура документа | html-элементы и их стили"
+  }
+]
+}

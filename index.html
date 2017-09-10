@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="/buttons/revolution.png" type="image/x-icon">
+<meta name="description" content="Irina H. Fylyppova : Scientific publications & Tutorials & Courseware & Design & Web-animation | Филиппова Ирина Гариевна : Научные публикации & Обучающие материалы & Учебные пособия и методические материалы & Социальная реклама & Веб-анимация"/>
+<meta name="keywords" content="scientific paper, tutorial, courseware, design, web-animation, научные публикации, обучающие материалы, учебные пособия, методические материалы, социальная реклама, веб-анимация"/>
+<meta name="author" content="Irina H. Fylyppova | Филиппова Ірина Гаріївна">
+<title>SHE - Science & Higher Education</title>
+
+<!-- my stylesheet -->
+<link rel="stylesheet" href="/css/styles_new.css">
+<link rel="stylesheet" href="/css/buttons.css" />
+<!-- TweenMax-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/plugins/CSSPlugin.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/easing/EasePack.min.js"></script>
+<!-- my scripts -->
+
+<script async src="/js/slider_library.js"></script>
+<script async src="https://www.youtube.com/iframe_api"></script>
+
+<script src="https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZ0QyZS1ramUwY1k"></script>
+<script src="https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSaUV1ZDJvZ0hsMlE"></script>
+
+<script src="/js/garevna_media_library.js"></script>
+<script async src="/js/garevna_news.js"></script>
+<script src="/js/button_set.js"></script>
+<script defer src="/js/animated_buttons.js"></script>
+<script defer src="/js/animated_menu.js"></script>
+<script defer src="/js/create_article_content.js"></script>
+<script defer src="/snippets/js/functions.js"></script>
+
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+<script>
+
+    //   в глобальной области видимости
+	
+    var garevna_sourceDataURL = '/data_files/main_buttons.json';
+    var garevna_lib = garevna_media_library();
+    var garevna_libTweenMethods;
+	
+	
+	var garevna_YouTubeIframeAPIReady = false;
+
+    function onYouTubeIframeAPIReady() {
+	    garevna_YouTubeIframeAPIReady = true;
+    }
+	
+	var garevna_dynamic_head = get_abbreviation_object ( "Front-End", "html CSS Javascript" );
+	console.clear();
+	
+</script>
+
+</head>
+
+<!--
+  ===================================================================================================================
+                                                       B O D Y   
+  ===================================================================================================================
+  -->
+<body>
+    <main id = "garevna_mainScene">
+       <img id = 'garevna_herb' src="images/ukraine-gold.png" />
+       <div id="garevna_logo">&copy; Филиппова Ірина Гаріївна 2016</div>
+       
+   </main>
+   <!--<div id='garevnaPlayerShadowRoot'></div>
+
+=====================================================================================================================   
+-->   
+<script>
+    var garevna_newsTween = new TimelineLite();
+    var garevna_news_worker;
+	var garevna_news_callback = garevna_lib.news_callback;
+	garevna_lib.loadSource (garevna_news_worker, "/data_files/running_band.json", garevna_news_callback, garevna_newsTween);
+</script>
+</body>
+</html>

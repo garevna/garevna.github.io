@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="/buttons/js.png">
+<meta name="description" content="Irina H. Fylyppova : Javascript courseware | Филиппова Ирина Гариевна : Javascript Обучающие материалы"/>
+<meta name="keywords" content="js, courseware, javascript"/>
+<title>Courseware</title>
+
+<!-- my stylesheet -->
+<link rel="stylesheet" href="/css/styles_new.css">
+<link rel="stylesheet" href="/css/buttons.css" />
+<link rel="stylesheet" href="/css/js-panel.css" />
+
+<!-- TweenMax-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/plugins/CSSPlugin.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/easing/EasePack.min.js"></script>
+
+<!-- my scripts -->
+
+<script src="https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSaUV1ZDJvZ0hsMlE"></script>
+<script src="https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZ0QyZS1ramUwY1k"></script>
+
+<script async src="/js/slider_library.js"></script>
+
+<script src="/js/garevna_media_library.js"></script>
+<script src="/js/create_article_content.js"></script>
+<script src="/snippets/js/functions.js"></script>
+<script src="/js/button_set.js"></script>
+<script defer src="/js/animated_buttons.js"></script>
+<script defer src="/js/animated_menu.js"></script>
+
+
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<style>
+    .tab50 { margin-left:50px; }
+	@-webkit-keyframes fall_down {
+	    from   { bottom: 150%; opacity:0; }
+        to     { bottom: -5%; opacity:1; }
+    }
+
+    @keyframes fall_down {
+        from   { bottom: 150%; opacity:0; }
+        to     { bottom: -5%; opacity:1; }
+    }
+</style>
+<script>
+
+    //   в глобальной области видимости
+	
+	var garevna_sourceDataURL = location.hash.substr(1,location.hash.length);
+    var garevna_lib = garevna_media_library();
+    var garevna_libTweenMethods;
+
+	var garevna_dynamic_head = null;
+	switch (garevna_sourceDataURL) {
+		case "/data_files/js/courseware.json":
+		    garevna_dynamic_head = get_abbreviation_object ( "BOM", "Browser Object Model" );
+			break;
+		case "/data_files/js/DOM_objects.json":
+		    garevna_dynamic_head = get_abbreviation_object ( "DOM", "Document Object Model" );
+			break;
+		default:
+		    garevna_dynamic_head = get_abbreviation_object ( "Object", "Properties Methods Events" );
+			break;
+	}
+	
+	//console.clear();
+	window.onresize = function (event) {
+		//garevna_lib.prompt_win_resize_callback();
+	}
+</script>
+
+</head>
+
+<!--
+  ===================================================================================================================
+                                                       B O D Y   
+  ===================================================================================================================
+  -->
+<body>
+    <main id = "garevna_mainScene">
+       <img id = 'garevna_herb' src="/images/ukraine-gold.png" />
+       <div id="garevna_logo">&copy; Филиппова Ірина Гаріївна 2017</div>
+       
+   </main>
+   <script>
+       document.body.appendChild(garevna_dynamic_head);
+	   garevna_dynamic_head.style.position = 'absolute';
+	   garevna_dynamic_head.style.bottom = '50px';
+	   garevna_dynamic_head.style.margin = '0';
+	   garevna_dynamic_head.style.right = '40px';
+   </script>
+   <!--<div id='garevnaPlayerShadowRoot'></div>
+
+=====================================================================================================================   
+-->   
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "homeButton":"/animated_buttons.html#/json/main_buttons.json",
+  "functionsList":
+[
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"visibility",
+    "header":"CSS-атрибут visibility"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"overflow",
+    "header":"CSS-атрибут overflow"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"margin_padding",
+    "header":"Блочная модель | CSS-атрибуты margin и padding"
+  },
+   {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"box_sizing",
+    "header":"CSS-атрибут box_sizing",
+    "header_img":"/html-css/images/CSS-Edit.png"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"display_values",
+    "header":"CSS-атрибут display",
+    "header_img":"/html-css/images/CSS-Edit.png"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"visibility",
+    "header":"CSS-атрибут visibility",
+    "header_img":"/html-css/images/CSS-Edit.png"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"visibility",
+    "header":"CSS-атрибут visibility",
+    "header_img":"/html-css/images/CSS-Edit.png"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"visibility",
+    "header":"CSS-атрибут visibility",
+    "header_img":"/html-css/images/CSS-Edit.png"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"visibility",
+    "header":"CSS-атрибут visibility",
+    "header_img":"/html-css/images/CSS-Edit.png"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"visibility",
+    "header":"CSS-атрибут visibility",
+    "header_img":"/html-css/images/CSS-Edit.png"
+  },
+  {
+    "type":"function",
+    "func_set":"garevna_html_07",
+    "func_name":"visibility",
+    "header":"CSS-атрибут visibility",
+    "header_img":"/html-css/images/CSS-Edit.png"
+  }
+]
+}

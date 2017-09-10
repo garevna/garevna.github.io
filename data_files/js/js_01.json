@@ -1,0 +1,68 @@
+{
+  "page_title": "JavaScript | BOM",
+  "meta_descr": "JavaScript: Введение. Browser Object Model. Веб-консоль",
+  "meta_keywords": "ECMA,AJAX,script,var,typeof,console.log,console.info,console.warn,console.error,console.dir, console.dirxml,console.group,console.groupEnd,console.groupCollapsed,console.time,console.timeEnd",
+  "start_function":"/JavaScript/js_object.js",
+  "functions": [
+    {
+      "type":"function",
+      "url": "/js/create_galery.js",
+      "func_name":"garevna_createGalery"
+    }
+  ],
+  "styleSheets": [],
+  "clear_function":"",
+  "styles": "",
+  "menu_title": "Browser Object Model",
+  "src": [
+    {
+      "type": "window",
+      "url": "https://docs.google.com/presentation/d/1i4GV1wR68A8pWnSjxVifwJMCDwrhD94KJQht9No3dQs/pub?start=true&loop=true&delayms=60000",
+      "folder_name": "Введение в курс",
+      "item_name": "Основные понятия",
+      "button_type": "google_slides",
+      "h_text": "Презентация PowerPoint"
+    },
+    {
+      "type": "window",
+      "url": "/chunks/js/#/data_files/js/BOM_objects.json",
+      "folder_name": "Введение в курс",
+      "item_name": "Объектная модель браузера (BOM)",
+      "button_type": "settings",
+      "h_text": "Объектная модель браузера (BOM)"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/jq4L6rkf/",
+      "folder_name": "Введение в курс",
+      "item_name": "Переменные. Типы данных",
+      "button_type": "jsfiddle",
+      "h_text": "Переменные. Типы данных"
+    },
+    {
+      "type": "window",
+      "url": "https://jsbin.com",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsbin.com",
+      "button_type": "jsbin",
+      "h_text": "Песочница"
+    },
+   {
+      "type": "window",
+      "url": "https://jsfiddle.net",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsfiddle.net",
+      "button_type": "jsfiddle",
+      "h_text": "Песочница"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_js_01",
+      "func_name": "homework",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Задание на дом",
+      "button_type": "homework"
+    }
+  ],
+  "news": []
+}

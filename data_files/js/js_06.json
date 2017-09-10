@@ -1,0 +1,62 @@
+{
+  "page_title": "JavaScript | Занятие 6",
+  "meta_descr": "JavaScript: events",
+  "meta_keywords": "addEventListener",
+  "start_function":"/Javascript/js_object.js",
+  "functions": [],
+  "styleSheets": [],
+  "clear_function":"",
+  "styles": "",
+  "menu_title": "Занятие 6",
+  "src": [
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/1uhrxmx1/3/",
+      "folder_name": "addEventListener",
+      "item_name": "Пример 1",
+      "button_type": "jsfiddle",
+      "h_text": "Пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/1uhrxmx1/4/",
+      "folder_name": "addEventListener",
+      "item_name": "Пример 2",
+      "button_type": "jsfiddle",
+      "h_text": "Пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/1uhrxmx1/9/",
+      "folder_name": "removeEventListener",
+      "item_name": "Пример",
+      "button_type": "jsfiddle",
+      "h_text": "Пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/1uhrxmx1/10/",
+      "folder_name": "dispatchEvent",
+      "item_name": "Пример",
+      "button_type": "jsfiddle",
+      "h_text": "Пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsbin.com",
+      "folder_name": "Песочницы",
+      "item_name": "jsbin.com",
+      "button_type": "jsbin",
+      "h_text": "Песочница"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net",
+      "folder_name": "Песочницы",
+      "item_name": "jsfiddle.net",
+      "button_type": "jsfiddle",
+      "h_text": "Песочница"
+    }
+  ],
+  "news": []
+}

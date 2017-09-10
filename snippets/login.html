@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="/logos/a-level-ico.png" type="image/x-icon">
+<script src="https://drive.google.com/uc?export=download&id=0BxaMB69y7fvScnFHZ2ptZExzYVk"></script>
+<link rel="stylesheet" href="https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSaEs2X3hQamNMa1E" />
+<title>JS</title>
+</head>
+
+<body>
+<script>
+
+	function grevnaLoginProcess ( text ) {
+		var params = {
+			type: 'prompt',
+			text: text,
+			iconURL: "/logos/a-level-ico.png",
+			headLineText: "Авторизация",
+			callback: function ( event ) { loginWorker.postMessage ( { keyword: event.detail } ); }
+		};
+        var keyPrompt = new Modals ( params );
+	}
+	
+	var loginWorker = new Worker ( '/js/a-level-login-worker.js' );
+	loginWorker.onmessage = function ( mess ) {
+		console.log ( mess.data );
+		if ( !mess.data.code ) {
+			if ( mess.data.message == "Access denied" )  grevnaLoginProcess ( "Еще одна попытка" );
+			else { var badAnswer = new Modals ( { type:'alert', text:'Плохой ответ сервера' } ); }
+		} else {
+			var params = {
+				type: 'fadow',
+				iconURL: "/logos/a-level-ico.png",
+				headLineText: "",
+				text: mess.data.message + "<img src = '/images/welcome.gif' style='position:fixed; width:50%; top:10%;left:5%;'/>"
+			}
+			var goodAnswer = new Modals ( params );
+		}
+	}
+    garevnaLogin = ( function () {
+    
+   		var link = document.createElement ( 'link' );
+	    link.id = "CustomModalStyleSheet";
+	    link.href = "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSaEs2X3hQamNMa1E";
+	    link.rel = "stylesheet";
+	    link.type = "text/css";
+	    document.head.appendChild ( link );
+    
+    	var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.defer = true;
+        script.onreadystatechange = function () {
+            if ( this.readyState == 'complete' ) { console.info('Ready!'); }
+        }
+        script.src = 'https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZGJodVlVc0loWnM';
+        document.getElementsByTagName ( 'head' ) [0].appendChild ( script );
+    	
+        script.onload = function () {
+        
+            if ( document.getElementsByTagName ( 'body' ) [0] ) {
+                grevnaLoginProcess ( "Введите Ваш персональный ключ доступа" );
+            } else {
+                console.error ( 'document is not ready' );
+            }
+        }
+	} ) ();
+</script>
+</body>
+</html>

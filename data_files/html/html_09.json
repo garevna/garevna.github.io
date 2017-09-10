@@ -1,0 +1,108 @@
+{
+  "page_title": "html&CSS | Занятие 9",
+  "meta_descr": "html & CSS: Плавающая модель. CSS-атрибут float. Хак с overflow",
+  "meta_keywords": "html,css,position,float,top,left,bottom,right,overflow,static,relative,absolute,fixed",
+  "functions": [
+    {
+      "type":"function",
+      "url": "/snippets/html/module_09.js",
+      "func_name": "garevna_html_09",
+      "lib_content": [
+        "introduction",
+        "simple_model",
+        "",
+        "",
+        "",
+        "homework"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "create_browser_window",
+        "getCssAttrValBySelector",
+        "setCssAttrValBySelector",
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    },
+    {
+      "type":"function",
+      "url": "/js/create_galery.js",
+      "func_name":"garevna_createGalery"
+    }
+  ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ],
+  "clear_function":"garevna_html_css_library.clear",
+  "styles": "#garevna_outer_block { width:70%;height:auto;background-color:#960064;color:white;padding:20px;line-height:190%;text-align:justify;} #garevna_inner_block_1, #garevna_inner_block_2 { width:auto;height:auto;border:solid 2px white;margin:10px;padding:20px;line-height:140%;-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.5);} #garevna_inner_block_1 { background-color:#649600; color:#ddb; } #garevna_inner_block_2 { background-color:rgba(200,200,255,0.7); color: black; } #garevna_text {padding:10px;width:300px;height:auto;background-color:#306000;color:white;font-size:15px;} #garevna_div{padding:20px;font-family:'Comic Sans MS';width:200px;height:100px;background-color:#555;color:white;}#garevna_img { width:100px; height:100px; color:white; }pad { display:block; margin-left:70px; padding: 4px 5px; }",
+  "menu_title": "'Плавающая' модель",
+  "src": [
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_09",
+      "func_name": "introduction",
+      "folder_name": "Обтекание элементов",
+      "item_name": "Введение",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_09",
+      "func_name": "simple_model",
+      "folder_name": "Обтекание элементов",
+      "item_name": "Простая модель",
+      "button_type": "settings"
+    },
+    {
+      "type": "object",
+      "func_name": "garevna_createGalery",
+      "func_params": ["/data_files/galery_images.json"],
+      "folder_name": "Библиотеки",
+      "item_name": "Изображения",
+      "button_type": "design"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-09/work.html",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Работа на занятии",
+      "button_type": "process"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_09",
+      "func_name": "homework",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Задание на дом",
+      "button_type": "homework"
+    },
+    {
+      "type": "lib function",
+      "lib_name":"garevna_html_css_library",
+      "func_name": "icons",
+      "folder_name": "Библиотеки",
+      "item_name": "Иконки",
+      "button_type": "download",
+      "h_text": "Иконки"
+    }
+  ],
+  "news": []
+}

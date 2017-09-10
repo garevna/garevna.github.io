@@ -1,0 +1,79 @@
+{
+  "page_title": "Макроэкономика",
+  "meta_descr": "Задачи по макроэкономике. Реальные и номинальные значения показателей. Индексы цен. Потребление, сбережения, инвестиции. Модель AD-AS. Крест Кейнса. Кривая IS. Международная торговля. Торговая политика",
+  "meta_keywords": "AD-AS,IS,инвестиции,сбережения,макроэкономика",
+  "functions": [
+    "/html-css/functions.js",
+    "/metod/macro/tasks_fuctions.js"
+  ],
+  "styleSheets": [],
+  "styles": "table{margin:10px 8px;}td,th{border:inset 1px; padding:2px 5px; margin:4px; text-align:center;}th{font-weight:bold; background-color:#92AFBB;}img{max-width:50px; height:auto;} @media screen and (min-width: 728px) and (max-width: 960px) {body,td,th{ font-size:95%; }} @media screen and (min-width: 468px) and (max-width: 728px) {body,td,th { font-size:90%;}} @media screen and (max-width: 468px) {body,td,th{ font-size:80%;}}",
+  "menu_title": "Задачи по макроэкономике",
+  "src": [
+    {
+      "ref": "realValues()",
+      "type": "function",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Реальные значения показателей",
+      "h_text": "Задача на расчет реальных значений макроэкономических показателей по данным Госкомстата Украины",
+      "button_type": "homework"
+    },
+    {
+      "ref": "priceIndexes()",
+      "type": "function",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Индексы цен",
+      "h_text": "Расчет индексов цен по формулам Пааше, Ласпейреса и Фишера",
+      "button_type": "homework"
+    },
+    {
+      "ref": "http://garevna.ucoz.com/metod-mat/macro/csi_tasks.pdf",
+      "type": "window",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Потребление, сбережения, инвестиции",
+      "h_text": "",
+      "button_type": "homework"
+    },
+    {
+      "ref": "http://garevna.ucoz.com/metod-mat/macro/ad-as.pdf",
+      "type": "window",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Модель AD-AS",
+      "h_text": "Совокупный спрос и совокупное предложение",
+      "button_type": "homework"
+    },
+    {
+      "ref": "http://garevna.ucoz.com/metod-mat/macro/krest_keyns.pdf",
+      "type": "window",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Крест Кейнса",
+      "h_text": "Инфляционный и рецессионный разрывы",
+      "button_type": "homework"
+    },
+    {
+      "ref": "http://garevna.ucoz.com/metod-mat/macro/is.pdf",
+      "type": "window",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Кривая IS",
+      "h_text": "Построение кривой равновесия на рынке благ. Заданы кривые сбережений и инвестиций. По данным графиков этих кривых постройте кривую IS",
+      "button_type": "homework"
+    },
+    {
+      "ref": "tradeConditions()",
+      "type": "function",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Условия торговли",
+      "h_text": "Международная торговля. Торговая политика",
+      "button_type": "homework"
+    },
+    {
+      "ref": "http://garevna.ucoz.com/metod-mat/macro/mt_macro.pdf",
+      "type": "window",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Международная торговля",
+      "h_text": "Первые четыре варианта задания - на минимальную оценку. Далее сложность заданий возрастает по мере роста номера варианта. Выберите вариант не по номеру в журнале, а по степени сложности, которая вас устраивает, с учетом того, что чем выше сложность, тем выше оценка",
+      "button_type": "homework"
+    }
+  ],
+  "news": []
+}

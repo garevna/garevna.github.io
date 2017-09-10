@@ -1,0 +1,11 @@
+{
+  "homeButton":"/animated_buttons.html#/json/main_buttons.json",
+  "videoList":
+[
+  {
+    "type":"video",
+    "content":"t7bpHb131Dw",
+    "txt":"Домен и хостинг | Загрузка файлов на сервер"
+  }
+]
+}

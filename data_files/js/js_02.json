@@ -1,0 +1,52 @@
+{
+  "page_title": "JavaScript | Занятие 2",
+  "meta_descr": "JavaScript: DOM (Document Object Model)",
+  "meta_keywords": "document, element, getElementById, createElement, innerHTML",
+  "start_function":"/Javascript/js_object.js",
+  "functions": [
+    {
+      "type":"function",
+      "url": "/js/create_galery.js",
+      "func_name":"garevna_createGalery"
+    }
+  ],
+  "styleSheets": [],
+  "clear_function":"",
+  "styles": "",
+  "menu_title": "Занятие 2",
+  "src": [
+    {
+      "type": "window",
+      "url": "/chunks/js/#/data_files/js/DOM_objects.json",
+      "folder_name": "DOM",
+      "item_name": "Объект document",
+      "button_type": "settings",
+      "h_text": "Динамический html (DHTML)"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/jq4L6rkf/32/",
+      "folder_name": "DOM",
+      "item_name": "Document Object Model",
+      "button_type": "jsfiddle",
+      "h_text": "Динамический html (DHTML)"
+    },
+    {
+      "type": "window",
+      "url": "https://jsbin.com",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsbin.com",
+      "button_type": "jsbin",
+      "h_text": "Песочница"
+    },
+   {
+      "type": "window",
+      "url": "https://jsfiddle.net",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsfiddle.net",
+      "button_type": "jsfiddle",
+      "h_text": "Песочница"
+    }
+  ],
+  "news": []
+}

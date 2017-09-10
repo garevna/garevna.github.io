@@ -1,0 +1,116 @@
+{
+  "page_title": "html&CSS | Занятие 2",
+  "meta_descr": "html & CSS: Блочные и строчные элементы. Структура и визуализация. Каскадные таблицы стилей. Веб-палитра. Оформление текста ",
+  "meta_keywords": "тег,html,css,tag,text,color,font-family,font-size,font-weight,text-align,font-shadow",
+  "functions": [
+    {
+      "type":"library",
+      "url": "/js/slider_library.js",
+      "lib_name": "garevna_sliderLibrary",
+      "lib_content": [
+        "load_data",
+        "buildNavigationPanel",
+        "resize_navi",
+        "getSlidesNumber",
+        "getCurrentSlide"
+      ]
+    },
+    {
+      "type":"function",
+      "url": "/js/video_slider.js",
+      "func_name":"garevnaVideoSlider",
+      "params":"/data_files/html/video_02.json"
+    },
+    {
+      "type":"function",
+      "url": "/snippets/html/module_02.js",
+      "func_name": "garevna_html_02",
+      "lib_content": [
+        "formatting",
+        "logic_structure"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    }
+    ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ],
+  "menu_title": "Введение в CSS",
+  "src": [
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_02",
+      "func_name": "formatting",
+      "folder_name": "Блочные и строчные элементы",
+      "item_name": "Форматирование текста",
+      "button_type": "settings",
+      "h_text": "Тренажер для форматирования текста"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_02",
+      "func_name": "logic_structure",
+      "folder_name": "Блочные и строчные элементы",
+      "item_name": "Логическая разметка",
+      "button_type": "settings",
+      "h_text": "Логическая структура документа"
+    },
+	{
+      "type": "function set",
+      "func_set_name": "garevna_html_02",
+      "func_name": "safe_fonts",
+      "folder_name": "Системные и браузерные шрифты",
+      "item_name": "Форматирование текста",
+      "button_type": "design",
+      "h_text": "Перечень шрифтов, безопасных для использования на веб-странице"
+    },
+    {
+      "type": "html",
+      "url": "/html-css/module-02/colors.html",
+      "folder_name": "Вспомогательные материалы",
+      "item_name": "Веб-палитра",
+      "button_type": "design",
+      "h_text": "Веб-палитра"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-02/work.html",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Работа на занятии",
+      "button_type": "process",
+      "h_text": "Открыть рабочее окно"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_02",
+      "func_name": "home_work",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Задание на дом",
+      "button_type": "homework",
+      "h_text": "Задание на дом"
+    }
+  ],
+  "styles": "#html-tags { max-width:60%; max-height:200px; overflow:scroll; padding:10px; border:inset 1px; } dfn, .green, .dark_gray { font-family:'Comic Sans MS'; font-size:120%; margin:2px; padding:4px 8px; -webkit-text-shadow:1px 1px 1px rgba(0,0,0,0.5); -moz-text-shadow:1px 1px 1px rgba(0,0,0,0.5); -o-text-shadow:1px 1px 1px rgba(0,0,0,0.5); text-shadow:1px 1px 1px rgba(0,0,0,0.5); } dfn { color: #960064; } .dark_gray { color: #445; } .green { color: #490; } .gray { color:#505550; font-size: 80%; margin:5px; }"
+}

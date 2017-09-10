@@ -1,0 +1,73 @@
+{
+    "defaultCentralImage":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSQmJOTU52QWhHZXM",
+    "defaultSideImage":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZ0Q4YWxrT1RnVjA",
+    "personage":"/Javascript/anim_gif/personages/astronaut.gif",
+    "levels":[
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZ0Q4YWxrT1RnVjA",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZ0Q4YWxrT1RnVjA",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSQXFvVlQ1Q0dWYVE"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUXc0a2JoWjVGUkE",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUXc0a2JoWjVGUkE",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSSGZ5SmZpVGdxWEk"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSYlNGSjdyNS1KWUk",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSYlNGSjdyNS1KWUk",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSSHF0SmhLZ2RIczQ"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZ0Q4YWxrT1RnVjA",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSQmJOTU52QWhHZXM",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSQ0ItQ0dRRVBFRkE"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUXc0a2JoWjVGUkE",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUXc0a2JoWjVGUkE",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSRGI3aW54SGEzT0E"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSRDBsaXNWc1d4R3M",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSYlNGSjdyNS1KWUk",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSdHZ3bGZ0Zmk5T1U"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZ0Q4YWxrT1RnVjA",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSRDBsaXNWc1d4R3M",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSdHZ3bGZ0Zmk5T1U"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUXc0a2JoWjVGUkE",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUXc0a2JoWjVGUkE",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSMGI1UnRHQ3VWZ0U"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSRDBsaXNWc1d4R3M",
+         "topBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSYlNGSjdyNS1KWUk",
+         "bottomBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSdmdBTklEeHRrWGM",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSSWR1eTd2M2d0dG8"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSYlNGSjdyNS1KWUk",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSckttV191bFp1MkE",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZVk0RWpoMmRNUGM"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZGpqb1hCdHlOcTg",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSa2J2djNxel9xcUU",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSX1dHb2NxN0h1a2s"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSdmdBTklEeHRrWGM",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSRGI3aW54SGEzT0E",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUnU5UkRHV2kxVkk"
+       },
+       {
+         "xBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSYlNGSjdyNS1KWUk",
+         "yBackground":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZGpqb1hCdHlOcTg",
+         "centralBackground": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSQmJOTU52QWhHZXM"
+       }
+    ]
+}

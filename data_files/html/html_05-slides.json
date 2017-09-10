@@ -1,0 +1,22 @@
+{ "galery_name":"html&CSS: Модуль 5. Упражнения",
+"galery_author":"Филипова Ірина Гаріївна",
+"images": [
+  { 
+    "url":"/html-css/module-05/images/work-1.png",
+    "comment":"Вставьте фоновое изображение по левой границе окна просмотра"
+  },
+	{"url":"/html-css/module-05/images/work-2.png",
+	  "comment":"Вставьте фоновое изображение по верхней границе окна просмотра"
+	},
+	{	"url":"/html-css/module-05/images/work-3.png",
+  "comment":"Вставьте фоновое изображение по всей поверхности окна просмотра"},
+	{	"url":"/html-css/module-05/images/work-4.png",
+  "comment":"Задайте размер изображения с помощью атрибутов тега"},
+	{	"url":"/html-css/module-05/images/work-5.png",
+  "comment":"Задайте размер изображения с помощью CSS-атрибутов"},
+	{	"url":"/html-css/module-05/images/work-6.png",
+  "comment":"Задайте фоновое изображение для элемента по его идентификатору"},
+	{	"url":"/html-css/module-05/images/work-7.png",
+  "comment":"Задайте фоновое изображение для элементов с помощью класса"}
+]
+}

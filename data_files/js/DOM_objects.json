@@ -1,0 +1,38 @@
+[
+  {
+    "passive": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUVpBdUZPV2VaOWs",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/dom_objects.js",
+      "func_name": "garevna_document_properties",
+      "func_params":["DHTML", "Свойства объекта document", "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSUVpBdUZPV2VaOWs"]
+    }
+  },
+  {
+    "passive": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSblhZeV81VUVxV00",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/dom_objects.js",
+      "func_name": "garevna_document_methods",
+      "func_params":["DHTML", "Методы объекта document", "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSblhZeV81VUVxV00"]
+    }
+  },
+  {
+    "passive": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSaEtOUWlPeUFwcWM",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/dom_objects.js",
+      "func_name": "garevna_dom_elements_properties",
+      "func_params":["DHTML", "Свойства элементов DOM", "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSaEtOUWlPeUFwcWM"]
+    }
+  },
+  {
+    "passive": "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSckhFdHhWNHBBOTA",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/dom_objects.js",
+      "func_name": "garevna_dom_elements_methods",
+      "func_params":["DHTML", "Методы элементов DOM", "https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSckhFdHhWNHBBOTA"]
+    }
+  }
+]

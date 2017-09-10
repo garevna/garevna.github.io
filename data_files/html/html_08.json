@@ -1,0 +1,129 @@
+{
+  "page_title": "html&CSS | Занятие 8",
+  "meta_descr": "html & CSS: Позиционирование элементов. CSS-атрибут position. Свободное позиционирование. Плавающая модель. CSS-атрибут float. Хак с overflow",
+  "meta_keywords": "html,css,position,float,top,left,bottom,right,overflow,static,relative,absolute,fixed",
+  "functions": [
+    {
+      "type":"function",
+      "url": "/snippets/html/module_08.js",
+      "func_name": "garevna_html_08",
+      "lib_content": [
+        "relative_position",
+        "absolute_position",
+        "fixed_position",
+        "",
+        "",
+        "homework"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "create_browser_window",
+        "getCssAttrValBySelector",
+        "setCssAttrValBySelector",
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    },
+    {
+      "type":"function",
+      "url": "/js/create_galery.js",
+      "func_name":"garevna_createGalery"
+    }
+  ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ],
+  "clear_function":"garevna_html_css_library.clear",
+  "styles": "#block-1, #block-2, #block-3, #block-4 { width:20%; height:100px; color:white; border:ridge 2px white; padding:10px; box-shadow:5px 5px 5px rgba(0,0,0,0.7); } .browser_win {background-image:url(/images/fon.gif); width:80%; margin-left:2%; margin-top:1%; padding:30px; border:groove 2px white; border-radius:4px; box-shadow:inset 4px 4px 4px rgba(0,0,0,0.5);",
+  "menu_title": "Занятие 8",
+  "src": [
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_08",
+      "func_name": "relative_position",
+      "folder_name": "Позиционирование элементов",
+      "item_name": "Относительное позиционирование",
+      "button_type": "lecture"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_08",
+      "func_name": "absolute_position",
+      "folder_name": "Позиционирование элементов",
+      "item_name": "Абсолютное позиционирование",
+      "button_type": "lecture"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_08",
+      "func_name": "fixed_position",
+      "folder_name": "Позиционирование элементов",
+      "item_name": "Фиксированное позиционирование",
+      "button_type": "lecture"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-08/position.html",
+      "folder_name": "Позиционирование элементов",
+      "item_name": "CSS-атрибуты top & left",
+      "button_type": "settings"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-08/position-1.html",
+      "folder_name": "Позиционирование элементов",
+      "item_name": "CSS-атрибуты bottom & right",
+      "button_type": "settings"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-08/container-position.html",
+      "folder_name": "Позиционирование элементов",
+      "item_name": "Позиционирование контейнера и контента",
+      "button_type": "settings"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-08/work.html",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Работа на занятии",
+      "button_type": "process"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_08",
+      "func_name": "homework",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Задание на дом",
+      "button_type": "homework"
+    },
+    {
+      "type": "lib function",
+      "lib_name":"garevna_html_css_library",
+      "func_name": "icons",
+      "folder_name": "Библиотеки",
+      "item_name": "Иконки",
+      "button_type": "download",
+      "h_text": "Иконки"
+    }
+  ],
+  "news": []
+}

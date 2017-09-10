@@ -1,0 +1,20 @@
+[
+  {
+    "passive": "/Javascript/anim_gif/computer_wizard.gif",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/js_statements.js",
+      "func_name": "garevna_js_statements",
+      "func_params":[]
+    }
+  },
+  {
+    "passive": "https://s-media-cache-ak0.pinimg.com/originals/4b/23/d1/4b23d1aac00c484991615dc80d62ae8e.gif",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/js_statements.js",
+      "func_name": "garevna_js_operators",
+      "func_params":[]
+    }
+  }
+]

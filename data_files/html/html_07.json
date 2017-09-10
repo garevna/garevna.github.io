@@ -1,0 +1,132 @@
+{
+  "page_title": "html&CSS | Занятие 7",
+  "meta_descr": "html&CSS: блочная модель. Атрибуты стиля display, visibility, overflow. Стиль границы border. Отступы margin и padding. Глобальный сброс",
+  "meta_keywords": "html,css,display,visibility,overflow,margin,padding,border",
+  "functions": [
+    {
+      "type":"function",
+      "url": "/snippets/html/module_07.js",
+      "func_name": "garevna_html_07",
+      "lib_content": [
+        "visibility",
+        "overflow",
+        "margin_padding",
+        "box_sizing",
+        "display_values",
+        "homework"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "create_browser_window",
+        "getCssAttrValBySelector",
+        "setCssAttrValBySelector",
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    },
+    {
+      "type":"function",
+      "url": "/js/create_galery.js",
+      "func_name":"garevna_createGalery"
+    }
+  ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ],
+  "clear_function":"garevna_html_css_library.clear",
+  "styles": "#block-1, #block-2, #block-3 { width:200px; color:white; padding:10px; } #block-1 { background-color:#649600; height: 50px; } #block-2 { background-color:#960064; height: 80px;  } #block-3 { background-color:#557; height: 30px;  } img { max-width:50px; height:auto; float:left; margin-right:5px; } #outer-block { background-color:#960064; color:white; } #inner-block { background-color:#649600; color:#ddb; } .browser_win {background-image:url(/images/fon.gif); width:80%; margin-left:2%; margin-top:1%; padding:30px; border:groove 2px white; border-radius:4px; box-shadow:inset 4px 4px 4px rgba(0,0,0,0.5);",
+  "menu_title": "Блочная модель",
+  "src": [
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_07",
+      "func_name": "margin_padding",
+      "folder_name": "Обучающие тренажеры",
+      "item_name": "Внешние и внутренние отступы",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_07",
+      "func_name": "display_values",
+      "folder_name": "Обучающие тренажеры",
+      "item_name": "CSS-атрибут display",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_07",
+      "func_name": "box_sizing",
+      "folder_name": "Обучающие тренажеры",
+      "item_name": "CSS-атрибут box-sizing",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_07",
+      "func_name": "overflow",
+      "folder_name": "Обучающие тренажеры",
+      "item_name": "CSS-атрибут overflow",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_07",
+      "func_name": "visibility",
+      "folder_name": "Обучающие тренажеры",
+      "item_name": "CSS-атрибут visibility",
+      "button_type": "settings"
+    },
+    {
+      "type": "object",
+      "func_name": "garevna_createGalery",
+      "func_params": ["/data_files/galery_images.json"],
+      "folder_name": "Библиотеки",
+      "item_name": "Изображения",
+      "button_type": "design"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-07/work.html",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Работа на занятии",
+      "button_type": "process"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_07",
+      "func_name": "homework",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Задание на дом",
+      "button_type": "homework"
+    },
+    {
+      "type": "lib function",
+      "lib_name":"garevna_html_css_library",
+      "func_name": "icons",
+      "folder_name": "Библиотеки",
+      "item_name": "Иконки",
+      "button_type": "download",
+      "h_text": "Иконки"
+    }
+  ],
+  "news": []
+}

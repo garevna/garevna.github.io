@@ -1,0 +1,50 @@
+{
+  "id":"mainButtons",
+  "type":"buttonsWithContent",
+  "ratio": { "width": 0.8, "height": 0.8 },
+  "defaultCursor": "/cursors/gun_aim.gif",
+  "defaultWidth": "100px",
+  "defaultHeight": "100px",
+  "defaultPicture": "/buttons/education.png",
+  "objects": [
+    {
+      "picture": "/buttons/js.png",
+      "contentType": "text",
+      "ref": "/text_files/js_01.txt",
+      "func_name": "",
+      "func_params": ""
+    },
+    {
+      "picture": "/buttons/js_cup.png",
+      "contentType": "text",
+      "ref": "/text_files/js_02.txt",
+      "func_name": "",
+      "func_params": []
+    },
+    {
+      "picture": "/buttons/js.png",
+      "contentType": "text",
+      "ref": "/text_files/js_03.txt",
+      "func_name": ""
+    },
+    {
+      "picture": "/buttons/js.png",
+      "contentType": "text",
+      "ref": "/text_files/js_04.txt",
+      "func_name": "",
+      "func_params": []
+    },
+    {
+      "picture": "/buttons/js.png",
+      "contentType": "constructor",
+      "ref": "/snippets/disciplinesConstructor.js",
+      "func_name": "DisciplinesList",
+      "topic": "it"
+    },
+    {
+      "picture": "/buttons/js.png.jpg",
+      "contentType": "html",
+      "ref": "/chunks/personal_info.html"
+    }
+  ]
+}

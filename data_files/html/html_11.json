@@ -1,0 +1,134 @@
+{
+  "page_title": "html&CSS | Занятие 11",
+  "meta_descr": "html&CSS: Доменное имя и хостинг. Индексация поисковиками. Статистика поисковых запросов. Релевантность информации. Уникальность текста.",
+  "meta_keywords": "dns, index, robot, search engine, crawler, spidering, hosting, domain name",
+  "functions": [
+    {
+      "type": "library",
+      "url": "/js/slider_library.js",
+      "lib_name": "garevna_sliderLibrary",
+      "lib_content": [
+        "load_data",
+        "buildNavigationPanel",
+        "resize_navi",
+        "getSlidesNumber",
+        "getCurrentSlide"
+      ]
+    },
+    {
+      "type": "function",
+      "url": "/js/video_slider.js",
+      "func_name": "garevnaVideoSlider",
+      "params": "/data_files/ai/video_11.json"
+    },
+    {
+      "type": "function",
+      "url": "/js/image_slider.js",
+      "func_name": "garevnaImageSlider",
+      "params": ["/data_files/html/img_11.json"]
+    },
+    {
+      "type":"function",
+      "url": "/snippets/html/module_11.js",
+      "func_name": "garevna_html_11",
+      "lib_content": [
+        "site_indexing",
+        "relevance",
+        "statistics",
+        "plagiat"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    }
+  ],
+  "styles":"spn { display:inline-block; box-sizing:border-box; height:25px; margin:0; border:inset 1px; text-align:center; } spn.magenta_white, spn.green_white { font-family:Helvetica, Arial, sans-serif; } .button_img { width:auto; height:30px; } .ref_img { width:50px; height:auto; } dfn { font-family:'Comic Sans MS'; font-size:120%; margin:2px; padding:4px 8px; -webkit-text-shadow:1px 1px 1px rgba(0,0,0,0.5); -moz-text-shadow:1px 1px 1px rgba(0,0,0,0.5); -o-text-shadow:1px 1px 1px rgba(0,0,0,0.5); text-shadow:1px 1px 1px rgba(0,0,0,0.5); color: #960064; }",
+  "menu_title": "Занятие 11",
+  "src": [
+     {
+      "type": "function set",
+      "func_set_name": "garevna_html_11",
+      "func_name": "site_indexing",
+      "folder_name": "Поисковые системы",
+      "item_name": "Индексация",
+      "button_type": "lecture",
+      "h_text": "Индексация в поисковых системах"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_11",
+      "func_name": "relevance",
+      "folder_name": "Поисковые системы",
+      "item_name": "Релевантность",
+      "button_type": "lecture",
+      "h_text": "Релевантность поисковому запросу"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_11",
+      "func_name": "statistics",
+      "folder_name": "Поисковые системы",
+      "item_name": "Статистика",
+      "button_type": "lecture",
+      "h_text": "Статистика поисковых запросов"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_11",
+      "func_name": "plagiat",
+      "folder_name": "Поисковые системы",
+      "item_name": "Уникальность контента",
+      "button_type": "lecture",
+      "h_text": "Уникальность контента страницы"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_11",
+      "func_name": "domen_and_hosting",
+      "folder_name": "Домен и хостинг",
+      "item_name": "Провайдеры",
+      "button_type": "ref",
+      "h_text": "Перечень провайдеров, предоставляющих услуги хостинга и регистрации доменного имени"
+    },
+    {
+      "type": "object",
+      "func_name": "garevnaImageSlider",
+      "func_params": ["/data_files/html/img_11.json"],
+      "folder_name": "Домен и хостинг",
+      "item_name": "Изменение DNS",
+      "button_type": "lecture",
+      "h_text": "Настройка сервера имен. Изменение DNS"
+    },
+    {
+      "type": "object",
+      "func_name": "garevnaVideoSlider",
+      "func_params": "/data_files/html/video_11.json",
+      "folder_name": "Домен и хостинг",
+      "item_name": "Загрузка файлов на сервер",
+      "button_type": "video"
+    }
+  ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ]
+}

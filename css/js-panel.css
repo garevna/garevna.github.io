@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+/* -------------------------------------------------------------------
+            Убирающаяся панель снизу 
+----------------------------------------------------------------------*/
+
+.js-panel-top
+{
+	position:relative;
+	left:0;
+	bottom:50px;
+	width:50px;
+	height:50px;
+	font-family: 'Comic Sans MS';
+	background-image:url(/buttons/js.png);
+	background-repeat:no-repeat;
+	background-size:70%;
+	background-position:center;
+	background-color:black;
+	border-top-style: groove;
+}
+
+.js-panel-top:hover
+{
+	cursor:pointer;
+	color:white;
+}
+.js-panel, .js-panel-top
+{
+	-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+	box-shadow:0px0px 4px rgba(0,0,0,0.4);
+	z-index:900;
+}
+.js-panel
+{ 
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:75%;
+	min-height:20%;
+	/*height:auto;*/
+	border:inset 1px;
+	box-sizing:border-box;
+	background-color:black;
+	color:white;
+	border-radius:5px;
+	padding-bottom:20px;
+}
+.js-panel-top
+{
+	-webkit-border-top-left-radius:50px;
+	border-top-left-radius:50px;
+	-webkit-border-top-right-radius:50px;
+	border-top-right-radius:50px;
+}
+.js-panel-elem { margin-left:10px; font-size:11px; }
+.tags { color:yellow; }
+@media screen and (min-width: 468px) and (max-width: 728px) {
+
+        .js-panel-elem { font-size:10px; }
+}
+@media screen and (max-width: 468px) {
+
+        .js-panel-elem { font-size:9px; }
+}

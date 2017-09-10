@@ -1,0 +1,1213 @@
+{
+  "admin_group": "admin",
+  "admin_name": "admin",
+  "admin_password": "Fragile7",
+  "groups": [
+    {
+      "group_number": "guest",
+      "disciplines": [ "AI", "PS", "html", "JS" ],
+      "students": [
+        {
+          "name": "guest",
+          "password": "_guest987",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "ЗМС-16-9",
+      "disciplines": [ "AI", "PS", "html", "JS" ],
+      "students": [
+        {
+          "name": "Афанасьев Данил",
+          "password": "380506321403",
+          "access": "yes"
+        },
+        {
+          "name": "Баклагин Егор",
+          "password": "380677094346",
+          "access": "yes"
+        },
+        {
+          "name": "Волошинов Альберт",
+          "password": "380675703097",
+          "access": "yes"
+        },
+        {
+          "name": "Гусев Даниил",
+          "password": "380504112482",
+          "access": "yes"
+        },
+        {
+          "name": "Заболотный Никита",
+          "password": "380972371410",
+          "access": "yes"
+        },
+        {
+          "name": "Коваленко Сергей",
+          "password": "380505203544",
+          "access": "yes"
+        },
+        {
+          "name": "Мехтизаде Мирвусал",
+          "password": "380938905822",
+          "access": "yes"
+        },
+        {
+          "name": "Носов Ярослав",
+          "password": "380931622342",
+          "access": "yes"
+        },
+        {
+          "name": "Омельчук Даниил",
+          "password": "380501716564",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МК-13-2",
+      "disciplines": [ "AI", "PS", "html", "JS" ],
+      "students": [
+        {
+          "name": "Лозинский Даниил",
+          "password": "380509422575",
+          "access": "yes"
+        },
+        {
+          "name": "Мамонов Дмитрий",
+          "password": "380503037901",
+          "access": "yes"
+        },
+        {
+          "name": "Маслов Вадим",
+          "password": "380972730767",
+          "access": "yes"
+        },
+        {
+          "name": "Назарук Александр",
+          "password": "380505570689",
+          "access": "yes"
+        },
+        {
+          "name": "Оридорога Михаил",
+          "password": "380504004870",
+          "access": "yes"
+        },
+        {
+          "name": "Пархоменко Данил",
+          "password": "380666855123",
+          "access": "yes"
+        },
+        {
+          "name": "Поляков Кирилл",
+          "password": "380973862839",
+          "access": "yes"
+        },
+        {
+          "name": "Федоренко Владислав",
+          "password": "380501876920",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "ЗМС-16-6",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html"
+      ],
+      "students": [
+        {
+          "name": "Абудая Катрин",
+          "password": "380975524517",
+          "access": "yes"
+        },
+        {
+          "name": "Безродный Данила",
+          "password": "380501330002",
+          "access": "yes"
+        },
+        {
+          "name": "Благой Олег",
+          "password": "380661734470",
+          "access": "yes"
+        },
+        {
+          "name": "Величко Валерия",
+          "password": "380675778868",
+          "access": "yes"
+        },
+        {
+          "name": "Колесник Иван",
+          "password": "380973701611",
+          "access": "yes"
+        },
+        {
+          "name": "Кузин Владимир",
+          "password": "380665440194",
+          "access": "yes"
+        },
+        {
+          "name": "Лавринович Артур",
+          "password": "380675793112",
+          "access": "yes"
+        },
+        {
+          "name": "Миланка Игорь",
+          "password": "380500306882",
+          "access": "yes"
+        },
+        {
+          "name": "Сыкал Юрий",
+          "password": "380956114370",
+          "access": "yes"
+        },
+        {
+          "name": "Шеремет Евгений",
+          "password": "380957074457",
+          "access": "yes"
+        },
+        {
+          "name": "Орлов Герман",
+          "password": "380675794232",
+          "access": "yes"
+        },
+        {
+          "name": "Чибисов Дмитрий",
+          "password": "380950368192",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "ЗМС-16-8",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html"
+      ],
+      "students": [
+        {
+          "name": "Жушман Даниил",
+          "password": "380504013717",
+          "access": "yes"
+        },
+        {
+          "name": "Коваль Богдан",
+          "password": "380675721216",
+          "access": "yes"
+        },
+        {
+          "name": "Курилкина Валерия",
+          "password": "380509101841",
+          "access": "yes"
+        },
+        {
+          "name": "Куча Антон",
+          "password": "380503003956",
+          "access": "yes"
+        },
+        {
+          "name": "Лагерь Александр",
+          "password": "380675770097",
+          "access": "yes"
+        },
+        {
+          "name": "Немцев Максим",
+          "password": "380505963988",
+          "access": "yes"
+        },
+        {
+          "name": "Патетюрин Никита",
+          "password": "380380665588",
+          "access": "yes"
+        },
+        {
+          "name": "Староверцев Степан",
+          "password": "380972596866",
+          "access": "yes"
+        },
+        {
+          "name": "Сулятицкий Денисй",
+          "password": "380984652223",
+          "access": "yes"
+        },
+        {
+          "name": "Цололо Екатерина",
+          "password": "380970591127",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "ЗМС-16-3",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html"
+      ],
+      "students": [
+        {
+          "name": "Довгалин Денис",
+          "password": "380995235193",
+          "access": "yes"
+        },
+        {
+          "name": "Жеребной Виктор",
+          "password": "380667655010",
+          "access": "yes"
+        },
+        {
+          "name": "Ключка Роман",
+          "password": "380963527077",
+          "access": "yes"
+        },
+        {
+          "name": "Мельник Мария",
+          "password": "380577024591",
+          "access": "yes"
+        },
+        {
+          "name": "Мищенко Глеб",
+          "password": "380989285658",
+          "access": "yes"
+        },
+        {
+          "name": "Мищерикова Алина",
+          "password": "380501400103",
+          "access": "yes"
+        },
+        {
+          "name": "Пашков Владислав",
+          "password": "380986212626",
+          "access": "yes"
+        },
+        {
+          "name": "Пономарев Даниил",
+          "password": "380672838776",
+          "access": "yes"
+        },
+        {
+          "name": "Рябуха Михаил",
+          "password": "380957074457",
+          "access": "yes"
+        },
+        {
+          "name": "Юрин Дмитрий",
+          "password": "380662700090",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МК-14-4",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html"
+      ],
+      "students": [
+        {
+          "name": "Богун Никита",
+          "password": "380999337376",
+          "access": "yes"
+        },
+        {
+          "name": "Глуховецкий Данила",
+          "password": "380686127586",
+          "access": "yes"
+        },
+        {
+          "name": "Городилова Дарья",
+          "password": "380677082224",
+          "access": "yes"
+        },
+        {
+          "name": "Иваненко Александр",
+          "password": "380675772572",
+          "access": "yes"
+        },
+        {
+          "name": "Косолапов Тимофей",
+          "password": "380507667295",
+          "access": "yes"
+        },
+        {
+          "name": "Кривцун Сергей",
+          "password": "380970794056",
+          "access": "yes"
+        },
+        {
+          "name": "Младинский Александр",
+          "password": "380675791043",
+          "access": "yes"
+        },
+        {
+          "name": "Нестеренко Богдан",
+          "password": "380666380114",
+          "access": "yes"
+        },
+        {
+          "name": "Сокол Антон",
+          "password": "380999416961",
+          "access": "yes"
+        },
+        {
+          "name": "Удовенко Артем",
+          "password": "380679584299",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МС-16-14",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html"
+      ],
+      "students": [
+        {
+          "name": "Болдырева Варвара",
+          "password": "380678908030",
+          "access": "yes"
+        },
+        {
+          "name": "Борсук Вероника",
+          "password": "380507795677",
+          "access": "yes"
+        },
+        {
+          "name": "Герасимов Никита",
+          "password": "380505958587",
+          "access": "yes"
+        },
+        {
+          "name": "Каменева Анастасия",
+          "password": "380975020349",
+          "access": "yes"
+        },
+        {
+          "name": "Кочегаров Валерий",
+          "password": "380503232332",
+          "access": "yes"
+        },
+        {
+          "name": "Могиленец Руслан",
+          "password": "380505475330",
+          "access": "yes"
+        },
+        {
+          "name": "Панчишный Максим",
+          "password": "380506327133",
+          "access": "yes"
+        },
+        {
+          "name": "Скиданов Антон",
+          "password": "380667706346",
+          "access": "yes"
+        },
+        {
+          "name": "Татарский Данила",
+          "password": "380660756928",
+          "access": "yes"
+        },
+        {
+          "name": "Шабанов Михаил",
+          "password": "380983879295",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МС-15-1",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Беспалов Кирилл",
+          "password": "380502080504",
+          "access": "yes"
+        },
+        {
+          "name": "Будкин Андрей",
+          "password": "380958805480",
+          "access": "yes"
+        },
+        {
+          "name": "Гула Владислав",
+          "password": "380951392340",
+          "access": "yes"
+        },
+        {
+          "name": "Донец Роман",
+          "password": "380975556506",
+          "access": "yes"
+        },
+        {
+          "name": "Качан Вадим",
+          "password": "380970580634",
+          "access": "yes"
+        },
+        {
+          "name": "Манько Елена",
+          "password": "380933692679",
+          "access": "yes"
+        },
+        {
+          "name": "Никольченко Денис",
+          "password": "380506158046",
+          "access": "yes"
+        },
+        {
+          "name": "Ожеред Владлена",
+          "password": "380664686828",
+          "access": "yes"
+        },
+        {
+          "name": "Сьянова Мария",
+          "password": "380672159992",
+          "access": "yes"
+        },
+        {
+          "name": "Ужченко Вероника",
+          "password": "380994747649",
+          "access": "yes"
+        },
+        {
+          "name": "Устименко Федор",
+          "password": "380675742472",
+          "access": "yes"
+        },
+        {
+          "name": "Филин Даниил",
+          "password": "380985229859",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МС-15-2",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Атмар Атал",
+          "password": "380931812405",
+          "access": "yes"
+        },
+        {
+          "name": "Безценный Дмитрий",
+          "password": "380931558729",
+          "access": "yes"
+        },
+        {
+          "name": "Гедзюк Дмитрий",
+          "password": "380986136764",
+          "access": "yes"
+        },
+        {
+          "name": "Гритчин Даниил",
+          "password": "380984070511",
+          "access": "yes"
+        },
+        {
+          "name": "Данилин Никита",
+          "password": "380504003866",
+          "access": "yes"
+        },
+        {
+          "name": "Лукьянчук Вячеслав",
+          "password": "380677354631",
+          "access": "yes"
+        },
+        {
+          "name": "Пятаков Георгий",
+          "password": "380677489543",
+          "access": "yes"
+        },
+        {
+          "name": "Тристан Сергей",
+          "password": "380969633527",
+          "access": "yes"
+        },
+        {
+          "name": "Федорук Ростислав",
+          "password": "380509246128",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МС-15-3",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Бутенко Иван",
+          "password": "380939221007",
+          "access": "yes"
+        },
+        {
+          "name": "Волобуев Иван",
+          "password": "380637279895",
+          "access": "yes"
+        },
+        {
+          "name": "Дробный Александр",
+          "password": "380663226570",
+          "access": "yes"
+        },
+        {
+          "name": "Каплун Олег",
+          "password": "380502287697",
+          "access": "yes"
+        },
+        {
+          "name": "Лукьяненко Максим",
+          "password": "380969291400",
+          "access": "yes"
+        },
+        {
+          "name": "Людвинский Вадим",
+          "password": "380675918845",
+          "access": "yes"
+        },
+        {
+          "name": "Марадудин Илья",
+          "password": "380508773515",
+          "access": "yes"
+        },
+        {
+          "name": "Назаренко Егор",
+          "password": "380679020311",
+          "access": "yes"
+        },
+        {
+          "name": "Панченко Егор",
+          "password": "380508084445",
+          "access": "yes"
+        },
+        {
+          "name": "Толстиков Владислав",
+          "password": "380990318681",
+          "access": "yes"
+        },
+        {
+          "name": "Ус Кристина",
+          "password": "380964112882",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МС-15-4",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Бондаренко Дмитрий",
+          "password": "380507651140",
+          "access": "yes"
+        },
+        {
+          "name": "Данченко Денис",
+          "password": "380669103500",
+          "access": "yes"
+        },
+        {
+          "name": "Деркач Александр",
+          "password": "380676856594",
+          "access": "yes"
+        },
+        {
+          "name": "Другак Адриан",
+          "password": "380679829071",
+          "access": "yes"
+        },
+        {
+          "name": "Ена Руслан",
+          "password": "380679343913",
+          "access": "yes"
+        },
+        {
+          "name": "Лыкова Анастасия",
+          "password": "380973404816",
+          "access": "yes"
+        },
+        {
+          "name": "Пластовец Анастасия",
+          "password": "380958660814",
+          "access": "yes"
+        },
+        {
+          "name": "Самсыкин Андрей",
+          "password": "380506625353",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МС-15-5",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Богданов Максим",
+          "password": "380953280266",
+          "access": "yes"
+        },
+        {
+          "name": "Боровской Марк",
+          "password": "380674469792",
+          "access": "yes"
+        },
+        {
+          "name": "Великая Екатерина",
+          "password": "380663787190",
+          "access": "yes"
+        },
+        {
+          "name": "Данец Марина",
+          "password": "380999875066",
+          "access": "yes"
+        },
+        {
+          "name": "Макаренко Владислав",
+          "password": "380953685873",
+          "access": "yes"
+        },
+        {
+          "name": "Руденко Олег",
+          "password": "380954021171",
+          "access": "yes"
+        },
+        {
+          "name": "Спасский Артем",
+          "password": "380505532181",
+          "access": "yes"
+        },
+        {
+          "name": "Хаустова Евгения",
+          "password": "380954578241",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МС-15-6",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Артюх Богдан",
+          "password": "380507511515",
+          "access": "yes"
+        },
+        {
+          "name": "Батыева Дарья",
+          "password": "запрещен",
+          "access": "no"
+        },
+        {
+          "name": "Власенко Денис",
+          "password": "",
+          "access": "no"
+        },
+        {
+          "name": "Грищенко Руслан",
+          "password": "380677016836",
+          "access": "yes"
+        },
+        {
+          "name": "Лучко Алексей",
+          "password": "380505314151",
+          "access": "yes"
+        },
+        {
+          "name": "Мельникова Инна",
+          "password": "380674443015",
+          "access": "yes"
+        },
+        {
+          "name": "Орешина Юлия",
+          "password": "380509841397",
+          "access": "no"
+        },
+        {
+          "name": "Полозов Денис",
+          "password": "380978190657",
+          "access": "yes"
+        },
+        {
+          "name": "Реука Евгений",
+          "password": "380974975909",
+          "access": "yes"
+        },
+        {
+          "name": "Утиралов Вячеслав",
+          "password": "380673942242",
+          "access": "yes"
+        },
+        {
+          "name": "Эрлихман Софья",
+          "password": "380996588901",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "ЗМК-13-2",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Бондаренко Владислав",
+          "password": "380956149759",
+          "access": "yes"
+        },
+        {
+          "name": "Голубенко Михаил",
+          "password": "380661892027",
+          "access": "yes"
+        },
+        {
+          "name": "Даценко Евгений",
+          "password": "380505897807",
+          "access": "yes"
+        },
+        {
+          "name": "Кононенко Иван",
+          "password": "380958495519",
+          "access": "yes"
+        },
+        {
+          "name": "Крамской Кирилл",
+          "password": "380675797050",
+          "access": "yes"
+        },
+        {
+          "name": "Огиенко Анастасия",
+          "password": "380979394562",
+          "access": "yes"
+        },
+        {
+          "name": "Профатилов Владимир",
+          "password": "",
+          "access": "no"
+        },
+        {
+          "name": "Цилюрик Антон",
+          "password": "",
+          "access": "no"
+        }
+      ]
+    },
+    {
+      "group_number": "ЗМК-14-2",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Деркач Елизавета",
+          "password": "380503350571",
+          "access": "yes"
+        },
+        {
+          "name": "Дугин Тимофей",
+          "password": "380675970547",
+          "access": "yes"
+        },
+        {
+          "name": "Крикун Демид",
+          "password": "380504033978",
+          "access": "yes"
+        },
+        {
+          "name": "Кудрявцев Никита",
+          "password": "380991143135",
+          "access": "yes"
+        },
+        {
+          "name": "Кураш Борис",
+          "password": "380675732821",
+          "access": "yes"
+        },
+        {
+          "name": "Лебедев Даниил",
+          "password": "380504013982",
+          "access": "yes"
+        },
+        {
+          "name": "Меняйло Александр",
+          "password": "380965775792",
+          "access": "yes"
+        },
+        {
+          "name": "Поляк Яков",
+          "password": "380503232112",
+          "access": "yes"
+        },
+        {
+          "name": "Шуляк Никита",
+          "password": "380660447557",
+          "access": "yes"
+        },
+        {
+          "name": "Устименко Егор",
+          "password": "380506883115",
+          "access": "yes"
+        },
+        {
+          "name": "Филенко Никита",
+          "password": "380504011775",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "ЗМС-16-1",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Выхватин Максим",
+          "password": "380679500195",
+          "access": "yes"
+        },
+        {
+          "name": "Гурин Владислав",
+          "password": "380674514745",
+          "access": "yes"
+        },
+        {
+          "name": "Клочко Богдан",
+          "password": "380504063620",
+          "access": "yes"
+        },
+        {
+          "name": "Малых Екатерина",
+          "password": "380685508066",
+          "access": "yes"
+        },
+        {
+          "name": "Поддубная Вероника",
+          "password": "380973149835",
+          "access": "yes"
+        },
+        {
+          "name": "Пузич Даниил",
+          "password": "380509491317",
+          "access": "yes"
+        },
+        {
+          "name": "Тертычный Егор",
+          "password": "380687537777",
+          "access": "yes"
+        },
+        {
+          "name": "Холодов Станислав",
+          "password": "380675875121",
+          "access": "yes"
+        },
+        {
+          "name": "Чалабиева Гюльмине",
+          "password": "380636533543",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "ЗМС-16-5",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Болдина Наталья",
+          "password": "380660195143",
+          "access": "yes"
+        },
+        {
+          "name": "Бочков Александр",
+          "password": "380675310353",
+          "access": "yes"
+        },
+        {
+          "name": "Бухолдин Ярослав",
+          "password": "380661241267",
+          "access": "yes"
+        },
+        {
+          "name": "Колоусова Анастасия",
+          "password": "380955104940",
+          "access": "yes"
+        },
+        {
+          "name": "Любченко Никита",
+          "password": "380506173796",
+          "access": "yes"
+        },
+        {
+          "name": "Перевозник Анна",
+          "password": "380501607060",
+          "access": "yes"
+        },
+        {
+          "name": "Повелица Олег",
+          "password": "380965833018",
+          "access": "yes"
+        },
+        {
+          "name": "Самородова София",
+          "password": "380675551080",
+          "access": "yes"
+        },
+        {
+          "name": "Товстолуг Владислава",
+          "password": "380983951396",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МК-13-5",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Варчук Семен",
+          "password": "380632555371",
+          "access": "yes"
+        },
+        {
+          "name": "Данилова Валерия",
+          "password": "380503230047",
+          "access": "yes"
+        },
+        {
+          "name": "Желтко Дмитрий",
+          "password": "380669820733",
+          "access": "yes"
+        },
+        {
+          "name": "Капуста Александр",
+          "password": "380675741177",
+          "access": "yes"
+        },
+        {
+          "name": "Коваленко Мария",
+          "password": "380678022702",
+          "access": "yes"
+        },
+        {
+          "name": "Латышев Алексей",
+          "password": "380502288300",
+          "access": "yes"
+        },
+        {
+          "name": "Масалитин Марк",
+          "password": "380504011918",
+          "access": "yes"
+        },
+        {
+          "name": "Попов Илья",
+          "password": "380997773800",
+          "access": "yes"
+        },
+        {
+          "name": "Порожняк Никита",
+          "password": "380675458335",
+          "access": "yes"
+        },
+        {
+          "name": "Стешенко София",
+          "password": "380975471063",
+          "access": "yes"
+        },
+        {
+          "name": "Ямпольский Дмитрий",
+          "password": "380509107278",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МК-13-7",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Бобро Анастасия",
+          "password": "380632207299",
+          "access": "yes"
+        },
+        {
+          "name": "Воробьева Юлия",
+          "password": "380677303734",
+          "access": "yes"
+        },
+        {
+          "name": "Голубничий Владимир",
+          "password": "380665739687",
+          "access": "yes"
+        },
+        {
+          "name": "Куценко Тимур",
+          "password": "380957177444",
+          "access": "yes"
+        },
+        {
+          "name": "Кушнарев Денис",
+          "password": "380505880642",
+          "access": "yes"
+        },
+        {
+          "name": "Леонов Никита",
+          "password": "380677562212",
+          "access": "yes"
+        },
+        {
+          "name": "Малиновский Александр",
+          "password": "380679475408",
+          "access": "yes"
+        },
+        {
+          "name": "Попов Максим",
+          "password": "380677324217",
+          "access": "yes"
+        },
+        {
+          "name": "Сизов Ярослав",
+          "password": "380665722687",
+          "access": "yes"
+        },
+        {
+          "name": "Стребкова Анна",
+          "password": "380505200484",
+          "access": "yes"
+        },
+        {
+          "name": "Щербинин Владислав",
+          "password": "380938534014",
+          "access": "yes"
+        }
+      ]
+    },
+    {
+      "group_number": "МС-16-7",
+      "disciplines": [
+        "AI",
+        "PS",
+        "html",
+        "flash"
+      ],
+      "students": [
+        {
+          "name": "Андониев Богдан",
+          "password": "380992469659",
+          "access": "yes"
+        },
+        {
+          "name": "Билык Олег",
+          "password": "380973553116",
+          "access": "yes"
+        },
+        {
+          "name": "Григоров Максим",
+          "password": "380675793255",
+          "access": "yes"
+        },
+        {
+          "name": "Данилкович Дмитрий",
+          "password": "380663834809",
+          "access": "yes"
+        },
+        {
+          "name": "Еремин Вячеслав",
+          "password": "380936484683",
+          "access": "yes"
+        },
+        {
+          "name": "Загоруйко Антон",
+          "password": "380660298166",
+          "access": "yes"
+        },
+        {
+          "name": "Кривеженко Сергей",
+          "password": "380933848491",
+          "access": "yes"
+        },
+        {
+          "name": "Левченко Артур",
+          "password": "380963469368",
+          "access": "yes"
+        },
+        {
+          "name": "Пономарева Маргарита",
+          "password": "380506360304",
+          "access": "yes"
+        },
+        {
+          "name": "Савостин Ян",
+          "password": "380666747879",
+          "access": "yes"
+        },
+        {
+          "name": "Самойленко Ярослав",
+          "password": "380675762009",
+          "access": "yes"
+        }
+      ]
+    }
+  ]
+}

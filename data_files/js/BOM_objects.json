@@ -1,0 +1,57 @@
+[
+  {
+    "passive": "/Javascript/img/window-1.png",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/bom_objects.js",
+      "func_name": "garevna_window_methods",
+      "topic":"console",
+      "func_params":[]
+    }
+  },
+  {
+    "passive": "/Javascript/img/navigator-1.png",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/bom_objects.js",
+      "func_name": "garevna_navigator",
+      "func_params":[]
+    }
+  },
+  {
+    "passive": "/Javascript/img/screen-2.gif",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/bom_objects.js",
+      "func_name": "garevna_screen",
+      "func_params":[]
+    }
+  },
+  {
+    "passive": "/Javascript/img/location.png",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/bom_objects.js",
+      "func_name": "garevna_location",
+      "func_params": []
+    }
+  },
+  {
+    "passive": "/Javascript/img/console-pult.png",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/bom_objects.js",
+      "func_name": "garevna_console_study",
+      "func_params":[]
+    }
+  },
+  {
+    "passive": "/Javascript/img/history-3.png",
+    "active": {
+      "type": "js",
+      "ref": "/snippets/js/bom_objects.js",
+      "func_name": "garevna_history",
+      "func_params":[]
+    }
+  }
+]

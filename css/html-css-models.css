@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+.browser_win {
+	background-image:url(/images/fon.gif);
+	width:80%;
+	margin-left:5%;
+	margin-top:5%;
+	border:groove 2px white;
+	border-radius:4px;
+	box-shadow:inset 4px 4px 4px rgba(0,0,0,0.5);
+}
+.task-text
+{
+	font-family:arial;
+	font-size:14px;
+	line-height:140%!important;
+	padding:5px 10px 5px 10px;
+	display:flex;
+	display:-webkit-flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-left:40px;
+}
+.task-text > div
+{
+	   margin-right:20px;
+	   margin-top:10px;
+	   padding:10px;
+	   border:inset 1px;
+}
+input[type="text"]
+{
+	background-color:#1D6005;
+	color:white;
+	display:inline-block;
+}
+#panel_css, #panel_html
+{
+	position:fixed;
+	height:auto;
+	background-color:black;
+	color:white;
+	z-index:105;
+	padding:4px 8px;
+}
+#panel_css, #panel_html
+{
+	position:fixed;
+	height:auto;
+	background-color:black;
+	color:white;
+	z-index:105;
+	padding:4px 8px;
+}
+#panel_css > #css_turner:hover { color:red; cursor:pointer; }
+#panel_html { top:0; left:0; width:100%; }
+#panel_css { bottom:0; right:0; width:400px; }
+.css_attr { margin-left:40px; color:#4CD531; }
+
+.green_white, .dark_gray { font-size:90%; font-family:Arial; }
+#logo { width:70px; height:auto; margin-right:20px; }
+/* ----------------------------------------------------------------------
+           Медиа-запросы для различных устройств (экран)
+-------------------------------------------------------------------------*/
+
+@media screen and (min-width: 728px) and (max-width: 960px) {
+        #panel_css   { width:350px; font-size:90%; line-height:110%; }
+		input[type='text'] { font-size:90%; }
+		#panel_css p { margin:5px 10px;}
+}
+@media screen and (min-width: 468px) and (max-width: 728px) {
+        #panel_css   { width:300px; font-size:80%; line-height:100%; }
+		input[type='text'] { font-size:85%; }
+		#panel_css p { margin:2px 8px;}
+}
+@media screen and (max-width: 468px) {
+        #panel_css   { width:200px; font-size:75%; line-height:90%; }
+		input[type='text'] { font-size:80%; }
+		#panel_css p { margin:0 5px;}
+}
+@media screen and (max-height: 420px) {
+        #panel_css   { width:250px; font-size:75%; line-height:80%; }
+		input[type='text'] { font-size:80%; }
+		#panel_css p { margin:0 5px;}
+}

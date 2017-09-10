@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+/* -------------------------------------------------------------------
+            Убирающаяся панель снизу
+----------------------------------------------------------------------*/
+.css-panel
+{
+	width:350px;
+	position:fixed;
+	bottom:0;
+	right:0;
+	height:auto;
+	border:inset 1px;
+	box-sizing:border-box;
+	background-color:black;
+	color:white;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+	padding-bottom:30px;
+}
+.css-panel-top
+{
+	position:relative;
+	right:0;
+	bottom:50px;
+	width:50px;
+	height:50px;
+	font-family: 'Comic Sans MS';
+	background-image:url(/html-css/images/CSS-Edit.png);
+	background-repeat:no-repeat;
+	background-size:70%;
+	background-position:center;
+	background-color:black;
+	border-top-style: groove;
+}
+.css-panel-top:hover, .css-panel-name:hover
+{
+	cursor:pointer;
+	color:white;
+}
+.css-panel-name
+{
+	position:relative;
+	top:-45px;
+	color:#888;
+	/* font-family: 'Comic Sans MS'; */
+	font-size:90%;
+	height:0px;
+	text-align:left;
+	padding-left:10px;
+}
+.css-panel-name button
+{
+	width:18px;
+	height:18px;
+	background-color:transparent;
+	background-position:center;
+	margin:2px 0 0 10px;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+.css-panel-name button:hover, .css-panel-name button:active
+{
+	cursor:pointer;
+	outline:none;
+	border:none;
+	width:22px;
+	height:22px;
+}
+.css-panel, .css-panel-top
+{
+	-webkit-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+	-moz-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+	-ms-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+	-o-box-shadow:0px 0px 4px rgba(0,0,0,0.4);
+	box-shadow:0px0px 4px rgba(0,0,0,0.4);
+	z-index:401;
+}
+
+.css-panel-top
+{
+	-webkit-border-top-left-radius:50px;
+	-moz-border-top-left-radius:50px;
+	-ms-border-top-left-radius:50px;
+	-o-border-top-left-radius:50px;
+	border-top-left-radius:50px;
+	-webkit-border-top-right-radius:50px;
+	-moz-border-top-right-radius:50px;
+	-ms-border-top-right-radius:50px;
+	-o-border-top-right-radius:50px;
+	border-top-right-radius:50px;
+}
+.css-panel-elem { margin-left:10px; font-size:85%; }
+.css-panel select { font-size:90%; }
+.css-panel input[type="text"] {
+	position:relative;
+	width:50%;
+	margin-left:15px;
+	padding:2px 4px;
+	font-size:90%;
+	background-color:#E9EFDB;
+}
+
+@media screen and (min-width: 728px) and (max-width: 960px) {
+	    .css-panel-name, .css-panel  { width:300px; }
+        .css-panel-name, .css-panel-elem { font-size:90%; }
+		input[type="text"], select { font-size:85%; padding:4px 9px; }
+		/*input[type="text"] { max-width:100px; }*/
+}
+@media screen and (min-width: 468px) and (max-width: 728px) {
+
+        .css-panel-name, .css-panel  { width:280px; }
+        .css-panel-name, .css-panel-elem { font-size:80%; }
+		input[type="text"], select { font-size:80%; padding:3px 7px; }
+		/*input[type="text"] { max-width:80px; }*/
+		.gray { font-size:80%; }
+}
+@media screen and (max-width: 468px) {
+
+        .css-panel-name, .css-panel  { width:250px; }
+		.css-panel-name, .css-panel-elem { font-size:70%; }
+		input[type="text"], select { font-size:75%; padding:2px 5px; }
+		/*input[type="text"] { max-width:60px; }*/
+		.site_name, .module_name  { font-size:80%; }
+		.gray { font-size:80%; }
+}

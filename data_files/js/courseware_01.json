@@ -1,0 +1,152 @@
+{
+    "maxScore":20,
+    "lives":10,
+    "livesPictureURL":"/Javascript/anim_gif/personages/personage-1.gif",
+    "gameOverPictureURL":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZVhfeXVPblhxNzA",
+    "successPictureURL":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSd3U0S09YUkkwanc",
+    "failurePictureURL":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSMzNOUGc3QndEOGM",
+    "levels":[
+       {
+         "type": "choice",
+         "centralPicture":"/Javascript/anim_gif/personages/player.gif",
+         "question": "Выбрать объекты DOM",
+         "rightChoicesNums": [2,4,5,6],
+         "balls":1,
+         "choiceVariants": ["window","console","head","history","body","style","script","location"],
+         "choicePicture": { "url":"/Javascript/anim_gif/personages/goalkeeper.gif","width":"100px","height":"100px" },
+         "rightChoicePicture": { "url":"/Javascript/anim_gif/personages/goalkeeper-3.gif","width":"100px" },
+         "wrongChoicePicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"100px" }
+       },
+       {
+         "type": "input",
+         "centralPicture":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSbGdmVWxJX3JOYlE",
+         "question": "Получить в переменную myFriend элемент DOM с id = 'friend'",
+         "inputLegend": { "before":"var myFriend = document.","after":"('friend');"},
+         "rightInput": "getElementById",
+         "balls":3,
+         "rightInputPicture": { "url":"/Javascript/anim_gif/personages/smile-01.gif","width":"100px" },
+         "wrongInputPicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"80px" }
+       },
+       {
+         "type": "findError",
+         "centralPicture":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSbGdmVWxJX3JOYlE",
+         "question": "Найти и исправить ошибки в коде",
+         "wrongContent":"var collection = document.getElementsByClassName('myClass'); \rfor (var j = 0; j < collection.width; j++) { \r\tcollection[j].color = 'red'; \r}",
+         "rightContent": "var collection = document.getElementsByClassName('myClass'); \rfor (var j = 0; j < collection.length; j++) { \r\tcollection[j].style.color = 'red'; \r}",
+         "contentCols":100,
+         "contentRows":5,
+         "balls":10,
+         "rightInputPicture": { "url":"/Javascript/anim_gif/victory-1.gif","width":"150px" },
+         "wrongInputPicture": { "url":"/Javascript/anim_gif/personages/simpson-and-ball.gif","width":"150px" }
+       },
+       {
+         "type": "choice",
+         "centralPicture":"/Javascript/anim_gif/player.gif",
+         "question": "Выбрать событие объекта <br/>XMLHttpRequest",
+         "rightChoicesNums": [1],
+         "balls":1,
+         "choiceVariants": ["onresize","onreadystatechange","onmouseover","onclick","onchange","onmousedown","onfocusout","onblur"],
+         "choicePicture": { "url":"/Javascript/anim_gif/personages/goalkeeper-2.gif","width":"100px" },
+         "rightChoicePicture": { "url":"/Javascript/anim_gif/personages/smile-01.gif","width":"80px" },
+         "wrongChoicePicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"80px" }
+       },
+       {
+         "type": "input",
+         "centralPicture":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSbGdmVWxJX3JOYlE",
+         "question": "Удалить элемент DOM с id = 'friend'",
+         "inputLegend": { "before":"var elem = document.getElementById('friend');<br/>elem.","after":"(elem);"},
+         "rightInput": "parentNode.removeChild",
+         "balls":4,
+         "rightInputPicture": { "url":"/Javascript/anim_gif/victory_transparent.gif","width":"300px" },
+         "wrongInputPicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"100px" }
+       },
+       {
+         "type": "findError",
+         "centralPicture":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSbGdmVWxJX3JOYlE",
+         "question": "Найти и исправить ошибки в коде",
+         "wrongContent":"var request = new XMLHttpRequest; \rrequest.onReadyStateChange = function { \r\tif (request.readyState == 1 && request.status == 0) {\r\tdocument.write(request.responseText);\r}\relse { alert ('Ошибка: ' + request.readyState + ' : ' + request.readyState.status); }; \r}",
+         "rightContent": "var request = new XMLHttpRequest; \rrequest.onreadystatechange = function { \r\tif (request.readyState == 4 && request.status == 200) {\r\tdocument.write(request.responseText);\r}\relse { alert ('Ошибка: ' + request.readyState + ' : ' + request.status); }; \r}",
+         "contentCols":100,
+         "contentRows":7,
+         "balls":15,
+         "rightInputPicture": { "url":"/Javascript/anim_gif/victory_transparent.gif","width":"300px" },
+         "wrongInputPicture": { "url":"/Javascript/anim_gif/personages/simpson-and-ball.gif","width":"150px" }
+       },
+       {
+         "type": "choice",
+         "centralPicture":"/Javascript/anim_gif/player.gif",
+         "question": "С помощью какого метода можно<br/>создать новый элемент DOM",
+         "rightChoicesNums": [2],
+         "balls":1,
+         "choiceVariants": ["getElementById","appendChild","createElement","removeChild","addEventListener","open","focus","blur"],
+         "choicePicture": { "url":"/Javascript/anim_gif/personages/goalkeeper-2.gif","width":"100px" },
+         "rightChoicePicture": { "url":"/Javascript/anim_gif/personages/smile-01.gif","width":"80px" },
+         "wrongChoicePicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"80px" }
+       },
+       {
+         "type": "input",
+         "centralPicture":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSbGdmVWxJX3JOYlE",
+         "question": "Назначить обработчика события resize объекта window",
+         "inputLegend": { "before":"window.","after":"( 'resize', callbackFunction );"},
+         "rightInput": "addEventListener",
+         "balls":5,
+         "rightInputPicture": { "url":"/Javascript/anim_gif/victory_transparent.gif","width":"300px" },
+         "wrongInputPicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"100px" }
+       },
+       {
+         "type": "input",
+         "centralPicture":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSbGdmVWxJX3JOYlE",
+         "question": "Дополнить контент html-элемента main тегом &lt;p>Это я добавил&lt;/p>",
+         "inputLegend": { "before":"var elem = document.getElementsByTagName('main')[0].","after":" += '&lt;p>Это я добавил&lt;/p>';"},
+         "rightInput": "innerHTML",
+         "balls":5,
+         "rightInputPicture": { "url":"/Javascript/anim_gif/victory_transparent.gif","width":"300px" },
+         "wrongInputPicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"100px" }
+       },
+       {
+         "type": "choice",
+         "centralPicture":"/Javascript/anim_gif/player.gif",
+         "question": "Укажите свойства объекта<br/>MouseEvent",
+         "rightChoicesNums": [2,5,6,7],
+         "balls":1,
+         "choiceVariants": ["innerHTML","width","clientX","color","parentNode","target","clientY","type"],
+         "choicePicture": { "url":"/Javascript/anim_gif/personages/goalkeeper-2.gif","width":"100px" },
+         "rightChoicePicture": { "url":"/Javascript/anim_gif/personages/smile-01.gif","width":"80px" },
+         "wrongChoicePicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"80px" }
+       },
+       {
+         "type": "choice",
+         "centralPicture":"/Javascript/anim_gif/player.gif",
+         "question": "Укажите свойства объекта<br/>window",
+         "rightChoicesNums": [0,1,4,6],
+         "balls":1,
+         "choiceVariants": ["innerWidth","location","clientX","style","document","target","navigator","innerHTML"],
+         "choicePicture": { "url":"/Javascript/anim_gif/personages/goalkeeper-2.gif","width":"100px" },
+         "rightChoicePicture": { "url":"/Javascript/anim_gif/personages/smile-01.gif","width":"80px" },
+         "wrongChoicePicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"80px" }
+       },
+       {
+         "type": "choice",
+         "centralPicture":"/Javascript/anim_gif/player.gif",
+         "question": "Укажите методы объекта<br/>document",
+         "rightChoicesNums": [1,5],
+         "balls":1,
+         "choiceVariants": ["focus","createElement","alert","resizeTo","blur","write","confirm","moveTo"],
+         "choicePicture": { "url":"/Javascript/anim_gif/personages/goalkeeper.gif","width":"100px" },
+         "rightChoicePicture": { "url":"/Javascript/anim_gif/personages/victory-1.gif","width":"80px" },
+         "wrongChoicePicture": { "url":"/Javascript/anim_gif/explosion.gif","width":"80px" }
+       },
+       {
+         "type": "findError",
+         "centralPicture":"https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSbGdmVWxJX3JOYlE",
+         "question": "Дополнить код, подставив вместо ??? правильные выражения. Полученный код должен добавить на страницу новый элемент с заданным текстом",
+         "wrongContent":"var div = ???('div'); \rdiv.??? = 'Это новый элемент';\r\tdocument.???(div);\r",
+         "rightContent": "var div = document.createElement('div'); \rdiv.innerHTML = 'Это новый элемент';\r\tdocument.body.appendChild(div);\r",
+         "contentCols":100,
+         "contentRows":7,
+         "balls":12,
+         "rightInputPicture": { "url":"/Javascript/anim_gif/victory_transparent.gif","width":"300px" },
+         "wrongInputPicture": { "url":"/Javascript/anim_gif/personages/simpson-and-ball.gif","width":"150px" }
+       }
+    ]
+}

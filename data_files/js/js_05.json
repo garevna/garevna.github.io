@@ -1,0 +1,60 @@
+{
+  "page_title": "JavaScript | Занятие 5",
+  "meta_descr": "JavaScript: AJAX",
+  "meta_keywords": "AJAX XMLHttpRequest ActiveXObject readyState status onreadystatechange response responseText responseType",
+  "start_function":"/Javascript/js_object.js",
+  "functions": [
+    {
+      "type":"function",
+      "url": "/js/create_galery.js",
+      "func_name":"garevna_createGalery"
+    }
+  ],
+  "styleSheets": [],
+  "clear_function":"",
+  "styles": "",
+  "menu_title": "Занятие 5",
+  "src": [
+    {
+      "type": "window",
+      "url": "/Javascript/module-05/XMLHttpRequest.html",
+      "folder_name": "AJAX",
+      "item_name": "XMLHttpRequest",
+      "button_type": "settings",
+      "h_text": "Обучающий тренажер"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/jq4L6rkf/126/",
+      "folder_name": "AJAX",
+      "item_name": "Объект XMLHttpRequest",
+      "button_type": "jsfiddle",
+      "h_text": "Рабочая песочница"
+    },
+    {
+      "type": "window",
+      "url": "http://www.jsoneditoronline.org/",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "JSON editor",
+      "button_type": "ref",
+      "h_text": "Онлайн-редактор JSON файлов"
+    },
+    {
+      "type": "window",
+      "url": "https://jsbin.com",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsbin.com",
+      "button_type": "jsbin",
+      "h_text": "Песочница"
+    },
+   {
+      "type": "window",
+      "url": "https://jsfiddle.net",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsfiddle.net",
+      "button_type": "jsfiddle",
+      "h_text": "Песочница"
+    }
+  ],
+  "news": []
+}

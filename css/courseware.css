@@ -1,0 +1,182 @@
+@charset "utf-8";
+    
+	@font-face {
+        font-family: 'Comic Sans MS';
+        src: url("/css/fonts/Comic Sans MS.ttf");
+        src: local('Comic Sans MS'), local('Comic Sans MS'),
+        url("/fonts/Comic Sans MS.eot") format("embedded-opentype"),
+        url("/fonts/Comic Sans MS.otf") format("opentype"),
+        url("/fonts/Comic Sans MS.woff") format("woff"),
+        url("/fonts/Comic Sans MS.svg");
+	}
+	body { background-color:black; color:white; font-family:'Comic Sans MS'; }
+	.mainScene {
+		position:fixed;
+		z-index:1100;
+		width:70%;
+		height:80%;
+		top:9%;
+		left:20%;
+		text-align:center;
+		vertical-align:middle;
+		border-radius:5px;
+		background-color:rgba(0,0,0,0.58);
+		box-shadow:inset 0px 0px 10px rgba(39,210,245,0.8);
+		background-repeat:no-repeat;
+		background-size:40%;
+		background-position:bottom right;
+	}
+	
+	.mainScene .inputContainer {
+		position:absolute;
+		top:30%;
+		left:5%;
+		width:80%;
+		height:30%;
+		text-align:center;
+	}
+	.coursewareTextAreaElement {
+		background-color:black;
+		color:#2BF513;
+		padding:5px 10px;
+		display:block;
+		max-width:95%;
+	}
+	.coursewareQuest {
+		position:absolute;
+		top:5%;
+		left:5%;
+	}
+	.coursewareInputElement {
+		background-color:transparent;
+		color:#2BF513;
+		border:none;
+		font-size: 14px;
+		font-weight: bold;
+		animation:input_mc 0.5s infinite;
+	}
+	.buttonToNextLevel {
+		position:absolute;
+		bottom:0;
+		right:0;
+		font-family:'Comic Sans MS';
+		font-size:18px;
+		font-weight:bold;
+		color:yellow;
+		/*border:dotted 4px green;
+		border-radius:8px;*/
+		border:none;
+		background:none;
+		text-shadow:0px 0px 4px rgba(0,0,0,0.8);
+		animation:button_mc 0.5s infinite;
+		outline:none;
+	}
+	.buttonToNextLevel:hover {
+		color:#2EF31F;
+		border-color:yellow;
+		cursor:pointer;
+		outline:none;
+	}
+    .centralImage {
+	   position:fixed;
+	   width:40%;
+	   height:50%;
+	   bottom:0%;
+	   right:10%;
+	   background-repeat:no-repeat;
+	   background-position:center center;
+	   background-size:contain;
+	   text-align:center;
+   }
+   .garevna_gameOver, .garevna_gameVictory, .garevna_gameFailure {
+	   background-size:cover;
+   }
+   .garevna_gameOver {
+	   background-image:url(https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSZVhfeXVPblhxNzA);
+	   background-position:center center;
+   }
+   .garevna_gameVictory {
+	   background-image:url(https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSd3U0S09YUkkwanc);
+	   background-position:top center;
+   }
+   .garevna_gameFailure {
+	   background-image:url(https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSMzNOUGc3QndEOGM);
+	   background-position:top center;
+   }
+   .targetElement {
+	   position:fixed;
+	   background-size:contain;
+	   background-repeat:no-repeat;
+	   background-position:top left;
+	   width:70px;
+	   height:70px;
+   }
+   .targetElement > p {
+	   transform-origin:center top;
+	   transform-style:preserve-3d;
+	   font-weight:bold;
+	   text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
+   }
+   .targetElement > p:hover {
+	   font-size:120%;
+	   animation: text_rotation 1s infinite;
+	   cursor:pointer;
+   }
+   .livesPanel, .scorePanel {
+	   position:fixed;
+	   z-index:2000;
+	   border: groove 2px white;
+	   border-radius:4px;
+	   padding:5px;
+	   font-size:10px;
+   }
+   .livesPanel {
+	   left:0;
+	   bottom:30px;
+	   min-width:30px;
+	   max-width:90px;
+	   height:auto;
+   }
+   .scorePanel {
+	   left:0;
+	   bottom:0;
+	   width:300px;
+   }
+   .scorePanel > progress { width:200px; height:10px; }
+   .scorePanel:before { content: 'Score: '; }
+   .livesPanel > div { width:40px; height:40px; background-size:contain; background-repeat:no-repeat; background-position:center center; display:inline-block; }
+   @keyframes button_mc {
+	   0% { right: 0; }
+	   50% { right:20px; }
+	   100% { right: 0; }
+   }
+   @keyframes input_mc {
+	   0% { border: none; }
+	   50% { border:solid 1px red; }
+	   100% { border: none; }
+   }
+   @keyframes life_mc {
+	   0% { background-image: 'url(/Javascript/anim_gif/astronaut-1.gif)'; margin-left:auto; margin-top:auto; }
+	   50% { margin-left:-10px; margin-top:-10px; }
+	   100% { margin-left:-20px; margin-top:-20px; }
+   }
+   @keyframes text_rotation {
+	   0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+	   50% { transform: rotateX(-10deg) rotateY(10deg) rotateZ(-10deg); }
+	   100% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+   }
+   @media screen and (max-width: 480px) {
+	   .livesPanel { width:48px; padding:2px; }
+   }
+   @media screen and (max-height: 480px) {
+	   .mainScene { top:5%; left:10%; }
+	   .livesPanel { width:70px; padding:2px; }
+	   .livesPanel div { width:30px; height:30px; }
+   }
+   @media screen and (max-width: 420px)  {
+	   body { font-size:10px; }
+	   .targetElement { width:50px; height:50px; }
+	   .buttonToNextLevel { font-size:14px; }
+	   .livesPanel { width:36px; padding:2px; }
+	   .livesPanel div { width:30px; height:30px; }
+   }

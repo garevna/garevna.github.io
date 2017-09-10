@@ -1,0 +1,151 @@
+{
+  "page_title": "html&CSS | Занятие 5",
+  "meta_descr": "html&CSS: Графика в Front-End. Фоновые изображения. Форматы графических файлов в Internet. Оптимизация в Photoshop. Тег img и его атрибуты. Атрибуты стиля для фоновых изображений",
+  "meta_keywords": "html,img,background-image,background-repeat,background-size,background-position",
+  "functions": [
+    {
+      "type": "function",
+      "url": "/snippets/html/module_05.js",
+      "func_name": "garevna_html_05",
+      "lib_content": [
+        "css_background",
+        "background_image",
+        "tag_image",
+        "body_image",
+        "homework"
+      ]
+    },
+    {
+      "type": "library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "create_browser_window",
+        "getCssAttrValBySelector",
+        "setCssAttrValBySelector",
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    },
+    {
+      "type": "library",
+      "url": "/js/slider_library.js",
+      "lib_name": "garevna_sliderLibrary",
+      "lib_content": [
+        "load_data",
+        "buildNavigationPanel",
+        "resize_navi",
+        "getSlidesNumber",
+        "getCurrentSlide"
+      ]
+    },
+    {
+      "type": "function",
+      "url": "/js/image_slider.js",
+      "func_name": "garevnaImageSlider",
+      "params": "/data_files/ai/img_03.json"
+    },
+    {
+      "type": "function",
+      "url": "/js/create_galery.js",
+      "func_name": "garevna_createGalery",
+      "params": "/data_files/galery_images.json"
+    }
+  ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ],
+  "clear_function": "garevna_html_css_library.clear",
+  "styles": "cod { display:block; margin-left:80px; } comm { display:block; margin-left:120px; font-size: 80%; color: #885; } comm:before { content:'/* Варианты значений атрибута '; } comm:after { content:' */'; } img1, img2, img3 { width:100px; height:100px; float:left; background-repeat:no-repeat; background-size:contain; } img1 { background-image:url(/html-css/images/html.png); } img2 { background-image:url(/html-css/images/CSS-Edit.png); } img3 { background-image:url(/html-css/images/html-css.png); } gray { display:inline-block; color:#aaa; font-size: 90%; margin-left: 25px; font-family: Arial; } gray:before { content:'/* '; } gray:after { content:' */'; }",
+  "menu_title": "Графика",
+  "src": [
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_05",
+      "func_name": "background_image",
+      "folder_name": "Вставка фонового изображения",
+      "item_name": "CSS-форматирование",
+      "button_type": "lecture"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_05",
+      "func_name": "css_background",
+      "folder_name": "Вставка фонового изображения",
+      "item_name": "CSS-форматирование",
+      "button_type": "settings"
+    },
+    {
+      "ref": "xXqWQ222VZI",
+      "type": "video",
+      "folder_name": "Вставка изображений",
+      "item_name": "Подготовка изображений",
+      "h_text": "Подготовка изображений в Adobe Photoshop для вставки на веб-страницу"
+    },
+    {
+      "type": "object",
+      "func_name": "garevna_createGalery",
+      "func_params": [
+        "/data_files/galery_images.json",
+        "garevna_image_galery"
+      ],
+      "folder_name": "Библиотеки",
+      "item_name": "Изображения",
+      "button_type": "design"
+    },
+    {
+      "type": "object",
+      "func_name": "garevna_createGalery",
+      "func_params": ["/data_files/fon_images.json","garevna_fones_galery"],
+      "folder_name": "Библиотеки",
+      "item_name": "Фоновые изображения",
+      "button_type": "design"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_05",
+      "func_name": "tag_image",
+      "folder_name": "Вставка изображений",
+      "item_name": "Атрибуты тега &lt;img>",
+      "button_type": "lecture"
+    },
+    {
+      "type": "object",
+      "func_name": "garevnaImageSlider",
+      "func_params": "/data_files/html/html_05-slides.json",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Упражнения",
+      "button_type": "homework"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_05",
+      "func_name": "homework",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Задание на дом",
+      "button_type": "homework"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-05/work.html",
+      "folder_name": "Самостоятельная работа",
+      "item_name": "Рабочее окно",
+      "button_type": "process"
+    }
+  ],
+  "news": []
+}

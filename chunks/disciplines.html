@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Courseware</title>
+<link rel="stylesheet" href="/css/styles_new.css">
+<script src="/js/garevna_media_library.js"></script>
+<script src="/snippets/disciplines.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/plugins/CSSPlugin.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/easing/EasePack.min.js"></script>
+<style>
+#article0 { background-color:#828282; border: inset 1px white; border-radius:5px; }
+</style>
+</head>
+
+<body>
+<article id="article0" style="width:100%; height:400px;"></article>
+<script>
+
+function winResize () {
+	document.getElementById("article0").style.width = window.innerWidth*0.8 + 'px';
+	document.getElementById("article0").style.height = window.innerHeight*0.8 + 'px';
+	garevna_courseware.disciplines_resize;
+}
+    var garevna_lib = garevna_media_library();
+    var garevna_courseware = garevna_disciplines.bind(document.getElementById("article0"));
+	
+	console.dir(garevna_courseware);
+	garevna_courseware();
+	
+	if (window.addEventListener) {              
+        window.addEventListener("resize", winResize);
+        window.addEventListener("load", winResize);
+} else if (window.attachEvent) {                 
+        window.attachEvent("onresize", winResize);
+        window.attachEvent("onload", winResize);
+}
+</script>
+</body>
+</html>

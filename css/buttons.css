@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* BUTTONS */
+
+.button_w3c, .button_w3c:hover                           { background-image:url("/buttons/W3Schools.png"); }
+.button_github, .button_github:hover                     { background-image:url("/buttons/github.png"); }
+.button_plunker, .button_plunker:hover                   { background-image:url("/buttons/plunker.png"); }
+.button_editey, .button_editey:hover                     { background-image:url("/buttons/editey.png"); }
+.button_codepen, .button_codepen:hover                   { background-image:url("/buttons/codepen.png"); }
+.button_jsbin, .button_jsbin:hover                       { background-image:url("/buttons/dave_ico.svg"); }
+.button_jsfiddle, .button_jsfiddle:hover                 { background-image:url("/buttons/js_fiddle_logo.png"); }
+.button_ppt, .button_ppt:hover                           { background-image:url("/buttons/ppt.png"); }
+.button_ref, .button_ref:hover                           { background-image:url("/buttons/ref.png"); }
+.button_show, .button_show:hover                         { background-image:url("/buttons/eye-opened.png"); }
+.button_hide, .button_hide:hover                         { background-image:url("/buttons/eye-closed.png"); }
+.button_flash, .button_flash:hover                       { background-image:url("/buttons/swf_ico.png"); }
+.flash_button, .flash_button:hover                       { background-image:url("/buttons/adobe_flash.png"); }
+.button_homework, .button_homework:hover                 { background-image:url("/buttons/work.png"); }
+.button_download, .button_download:hover                 { background-image:url("/buttons/download.png"); }
+.button_lecture, .button_lecture:hover                   { background-image:url("/buttons/lecture.png"); }
+.button_video, .button_video:hover                       { background-image:url("/buttons/you-tube.png"); }
+.button_google_disk, .button_google_disk:hover           { background-image:url("/buttons/google_drive.png"); }
+.button_google_slides, .button_google_slides:hover       { background-image:url("/buttons/google_slides.png"); }
+.button_youtube, .button_youtube:hover                   { background-image:url("/buttons/you-tube.png"); }
+.button_work, .button_work:hover                         { background-image:url("/buttons/work-1.png"); }
+.button_scheme, .button_scheme:hover                     { background-image:url("/buttons/scheme.png"); }
+.button_design, .button_design:hover                     { background-image:url("/buttons/work_design.png"); }
+.button_mouse, .button_mouse:hover                       { background-image:url("/buttons/mouse.png"); }
+.button_settings, .button_settings:hover                 { background-image:url("/buttons/settings.png"); }
+.button_process, .button_process:hover                   { background-image:url("/buttons/comp_process.png"); }
+.button_home, .button_home:hover                         { background-image:url("/buttons/home_button.png"); }
+.button_comp, .button_comp:hover                         { background-image:url("/buttons/comp.png"); }
+
+.button_w3c, .button_w3c:hover,
+.button_github, .button_github:hover,
+.button_plunker, .button_plunker:hover,
+.button_codepen, .button_codepen:hover,
+.button_jsbin, .button_jsbin:hover,
+.button_editey, .button_editey:hover,
+.button_jsfiddle, .button_jsfiddle:hover,
+.button_ppt, .button_ppt:hover,
+.button_ref, .button_ref:hover,
+.button_comp, .button_comp:hover,
+.button_home, .button_home:hover,
+.button_show, .button_show:hover,
+.button_hide, .button_hide:hover,
+.button_flash, .button_flash:hover,
+.flash_button, .flash_button:hover,
+.button_video, .button_video:hover,
+.button_lecture, .button_lecture:hover,
+.button_download, .button_download:hover,
+.button_homework, .button_homework:hover,
+.button_google_disk, .button_google_disk:hover,
+.button_google_slides, .button_google_slides:hover,
+.button_youtube, .button_youtube:hover,
+.button_work, .button_work:hover,
+.button_scheme, .button_scheme:hover,
+.button_design, .button_design:hover, .button_mouse, .button_mouse:hover,
+.button_settings, .button_settings:hover, .button_process, .button_process:hover
+{
+        background-repeat:no-repeat;
+        background-size:90%;
+        background-position:center;
+	background-color:transparent;
+        cursor:hand;
+	border:none;
+}
+.button_show, .button_hide, .flash_button,
+.button_show:hover, .button_hide:hover, .flash_button:hover
+{
+	width:20px;
+    	height:20px;
+}
+
+.button_w3c, .button_w3c:hover,
+.button_github, .button_github:hover,
+.button_plunker, .button_plunker:hover,
+.button_codepen, .button_codepen:hover,
+.button_jsbin, .button_jsbin:hover,
+.button_editey, .button_editey:hover,
+.button_jsfiddle, .button_jsfiddle:hover,
+.button_ppt, .button_ppt:hover,
+.button_ref, .button_ref:hover,
+.button_comp, .button_comp:hover,
+.button_home, .button_home:hover,
+.button_homework, .button_homework:hover,
+.button_flash, .button_flash:hover,
+.button_download, .button_download:hover,
+.button_lecture, .button_lecture:hover,
+.button_google_disk, .button_google_disk:hover,
+.button_google_slides, .button_google_slides:hover,
+.button_work, .button_work:hover,
+.button_scheme, .button_scheme:hover,
+.button_design, .button_design:hover,
+.button_mouse, .button_mouse:hover,
+.button_settings, .button_settings:hover,
+.button_process, .button_process:hover
+{
+	width:30px;
+        height:30px;
+}
+.button_youtube, .button_youtube:hover, .button_video, .button_video:hover
+{
+	width:40px;
+    	height:25px;
+}
+
+.button_w3c:hover,
+.button_github:hover,
+.button_plunker:hover,
+.button_codepen:hover,
+.button_jsbin:hover,
+.button_editey:hover,
+.button_jsfiddle:hover,
+.button_ppt:hover,
+.button_comp:hover,
+.button_ref:hover,
+.button_show:hover,
+.button_hide:hover,
+.button_flash:hover,
+.flash_button:hover,
+.button_work:hover,
+.button_video:hover,
+.button_lecture:hover,
+.button_homework:hover,
+.button_download:hover,
+.button_google_disk:hover,
+.button_google_slides:hover,
+.button_youtube:hover,
+.button_scheme:hover,
+.button_design:hover,
+.button_mouse:hover,
+.button_settings:hover,
+.button_process:hover
+{
+        background-color:rgba(150,0,100,0.5);
+}
+
+.floating_buttons {
+	background-repeat:no-repeat;
+	background-position:left;
+	background-size:contain;
+	box-sizing:border-box;
+	text-align:center;
+	font-weight:bold;
+	text-shadow:0px 0px 3px black;
+}
+
+@media screen and (max-width:400px) and (max-height:450px) {
+	#__pin__ { width:20px; height:20px; }
+}

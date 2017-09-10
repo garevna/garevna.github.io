@@ -1,0 +1,146 @@
+{
+  "page_title": "html&CSS | Занятие 1",
+  "meta_descr": "html&CSS: История всемирной паутины. Гипертекст. Структура и визуализация. Теги. Стили. Кроссбраузерность. Вендорные префиксы",
+  "meta_keywords": "тег,разметка,гипертекст,www,html,css,tag",
+  "functions": [
+    {
+      "type":"library",
+      "url": "/js/slider_library.js",
+      "lib_name": "garevna_sliderLibrary",
+      "lib_content": [
+        "load_data",
+        "buildNavigationPanel",
+        "resize_navi",
+        "getSlidesNumber",
+        "getCurrentSlide"
+      ]
+    },
+    {
+      "type":"function",
+      "url": "/js/video_slider.js",
+      "func_name":"garevnaVideoSlider",
+      "params":"/data_files/ai/video_02.json"
+    },
+    {
+      "type":"function",
+      "url": "/snippets/html/module_01.js",
+      "func_name": "garevna_html_01",
+      "lib_content": [
+        "doctype",
+        "homework"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    }
+    ],
+  "styles":"",
+  "menu_title": "Введение в веб-технологии",
+  "src": [
+    {
+      "type": "presentation",
+      "ref": "1wtrGUoetjOpM6_faKCohkDVfv1JOgIJ-mmGg8kWlMsA",
+      "folder_name": "История",
+      "item_name": "WWW",
+      "button_type": "google_slides",
+      "h_text": "История всемирной паутины"
+    },
+    {
+      "type": "presentation",
+      "ref": "15LIPfEYbL1wq5jg9vqo0oI0rsuoNTloGVsHte9R0nrY",
+      "folder_name": "История",
+      "item_name": "HTML",
+      "button_type": "google_slides",
+      "h_text": "Гипертекст"
+    },
+    {
+      "type": "object",
+      "func_name": "garevnaVideoSlider",
+      "func_params": "/data_files/html/video_01.json",
+      "folder_name": "Структура html-документа",
+      "item_name": "Инструменты разработчика",
+      "button_type": "video"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_01",
+      "func_name": "doctype",
+      "folder_name": "Структура html-документа",
+      "item_name": "Объявление DOCTYPE",
+      "button_type": "lecture",
+      "h_text": "DOCTYPE"
+    },
+    {
+      "type": "html",
+      "url": "/html-css/module-01/tags.html",
+      "folder_name": "Структура html-документа",
+      "item_name": "Элементы html, head, body",
+      "button_type": "lecture",
+      "h_text": "Теги и элементы. Контейнер для содержимого html-документа"
+    },
+    {
+      "type": "html",
+      "url": "/html-css/module-01/browser_support.html",
+      "folder_name": "Кроссбраузерность",
+      "item_name": "CSS-атрибуты и браузеры",
+      "button_type": "lecture",
+      "h_text": "Поддержка основными браузерами CSS-атрибутов"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-01/work.html",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Работа на занятии",
+      "button_type": "process",
+      "h_text": "Открыть рабочее окно"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_01",
+      "func_name": "homework",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Задание на дом",
+      "button_type": "homework",
+      "h_text": "Домашнее задание"
+    },
+    {
+      "type": "html",
+      "url": "/html-css/module-01/vendor.html",
+      "folder_name": "Кроссбраузерность",
+      "item_name": "Ведорные префиксы",
+      "button_type": "lecture",
+      "h_text": "Префиксы производителей браузеров к CSS-атрибутам"
+    },
+    {
+      "ref": "/html-css/module-01/html_structure.swf",
+      "type": "frame",
+      "folder_name": "Структура html-документа",
+      "item_name": "Посмотри меня!",
+      "button_type": "flash",
+      "h_text": "Забавный ролик о структуре html-документа "
+    }
+  ],
+  "styleSheets": [
+    "/css/html-panel.css",
+    "/css/css-panel.css"
+  ]
+}

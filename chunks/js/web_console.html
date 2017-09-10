@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS | Занятие 1. Веб-консоль</title>
+<link rel="stylesheet" href="https://drive.google.com/uc?export=download&id=0BxaMB69y7fvSTDhPM0JTd0RGYWM">
+
+</head>
+<body>
+    <h1>Developer Tools</h1>
+    <h2>Веб-консоль | <b>Ctrl+Shift+J или F12</b></h2>
+    <div class="txt-content">
+        <div><p>Вывести в консоль информационное сообщение</p></div>
+        <div><p>Вывести в консоль предупреждение</p></div>
+        <div><p>Вывести в консоль сообщение об ошибке</p></div>
+        <div><input type="button" value="Очистить консоль" onclick="console.clear();"></div>
+        <div><p>Вывести в консоль объект браузера <i>console&nbsp;</i></p></div>
+        <div><p>Вывести в консоль объект <i>window&nbsp;</i></p></div>
+        
+    </div>
+    <div class="js-content">
+       <div>
+           <em>console.info("Мы изучаем веб-консоль");</em>&nbsp;&nbsp;
+           <input type="button" value="OK" onclick='console.info("Мы изучаем веб-консоль");' />
+       </div>
+       <div>
+           <em>console.warn("Это предупреждение");</em>&nbsp;&nbsp;
+           <input type="button" value="OK" onclick='console.warn("Это предупреждение");' />
+       </div>
+       <div>
+           <em>console.error("А это ошибка!");</em>&nbsp;&nbsp;
+           <input type="button" value="OK" onclick='console.error("А это ошибка!");' />
+       </div>
+       <div><em>console.clear();</em></div>
+       <div>
+           <em>console.log(console);</em>&nbsp;&nbsp;
+           <input type="button" value="OK" onclick="console.log(console);">
+           <br/>
+           <em>console.dir(console);</em>&nbsp;&nbsp;
+           <input type="button" value="OK" onclick="console.dir(console);">
+       </div>
+       <div>
+           <em>console.log(window);</em>&nbsp;&nbsp;
+           <input type="button" value="OK" onclick="console.log(window);" />
+           <br/>
+           <em>console.dir(window);</em>&nbsp;&nbsp;
+           <input type="button" value="OK" onclick="console.dir(window);" />
+       </div>
+       
+    </div>
+</body>
+</html>

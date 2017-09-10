@@ -1,0 +1,52 @@
+{
+  "page_title": "JavaScript | Занятие 3",
+  "meta_descr": "JavaScript: DOM (Document Object Model)",
+  "meta_keywords": "for, for/in, while, case, if, else, do...while,",
+  "start_function":"/Javascript/js_object.js",
+  "functions": [
+    {
+      "type":"function",
+      "url": "/js/create_galery.js",
+      "func_name":"garevna_createGalery"
+    }
+  ],
+  "styleSheets": [],
+  "clear_function":"",
+  "styles": "",
+  "menu_title": "Занятие 3",
+  "src": [
+    {
+      "type": "window",
+      "url": "/chunks/js/#/data_files/js/JS_statements.json",
+      "folder_name": "JS",
+      "item_name": "Statements",
+      "button_type": "settings",
+      "h_text": "Выражения"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/jq4L6rkf/67/",
+      "folder_name": "JS",
+      "item_name": "Циклы и условные операторы",
+      "button_type": "jsfiddle",
+      "h_text": "Рабочая песочница"
+    },
+    {
+      "type": "window",
+      "url": "https://jsbin.com",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsbin.com",
+      "button_type": "jsbin",
+      "h_text": "Песочница"
+    },
+   {
+      "type": "window",
+      "url": "https://jsfiddle.net",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsfiddle.net",
+      "button_type": "jsfiddle",
+      "h_text": "Песочница"
+    }
+  ],
+  "news": []
+}

@@ -1,0 +1,78 @@
+{
+  "page_title": "JavaScript | Events",
+  "meta_descr": "JavaScript: DOM events",
+  "meta_keywords": "events, mouseover, mouseout, mouseenter, mousemove",
+  "start_function":"/Javascript/js_object.js",
+  "functions": [],
+  "styleSheets": [],
+  "clear_function":"",
+  "styles": "",
+  "menu_title": "События",
+  "src": [
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/mrgbcfc4/",
+      "folder_name": "DOM events",
+      "item_name": "События элементов DOM",
+      "button_type": "jsfiddle",
+      "h_text": "Рабочая песочница"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/rwtdo3cm/1/",
+      "folder_name": "mouse events",
+      "item_name": "fromElement | toElement",
+      "button_type": "jsfiddle",
+      "h_text": "Свойства объекта event: event.fromElement | event.toElement"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/rwtdo3cm/3/",
+      "folder_name": "mouse events",
+      "item_name": "relatedTarget | originalTarget",
+      "button_type": "jsfiddle",
+      "h_text": "Свойства объекта event: event.relatedTarget | event.originalTarget"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/rwtdo3cm/5/",
+      "folder_name": "mouse events",
+      "item_name": "mouseenter vs mouseover",
+      "button_type": "jsfiddle",
+      "h_text": "Чем отличается событие mouseenter элемента от события mouseover"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/rwtdo3cm/6/",
+      "folder_name": "mouse events",
+      "item_name": "mouseenter",
+      "button_type": "jsfiddle",
+      "h_text": "Событие mouseenter не наследуется потомками"
+    },
+    {
+      "type": "window",
+      "url": "/Javascript/module-04/mouse_events_sample.html",
+      "folder_name": "DOM events",
+      "item_name": "Задание на дом (пример)",
+      "button_type": "work",
+      "h_text": "Хвост мышки: Пример выполнения домашнего задания"
+    },
+    {
+      "type": "window",
+      "url": "https://jsbin.com",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsbin.com",
+      "button_type": "jsbin",
+      "h_text": "Песочница"
+    },
+   {
+      "type": "window",
+      "url": "https://jsfiddle.net",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Песочница jsfiddle.net",
+      "button_type": "jsfiddle",
+      "h_text": "Песочница"
+    }
+  ],
+  "news": []
+}

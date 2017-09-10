@@ -1,0 +1,78 @@
+{
+  "page_title": "JavaScript | Занятие 7",
+  "meta_descr": "JavaScript: events",
+  "meta_keywords": "createEvent",
+  "start_function":"/Javascript/js_object.js",
+  "functions": [],
+  "styleSheets": [],
+  "clear_function":"",
+  "styles": "",
+  "menu_title": "Занятие 7",
+  "src": [
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/u0st8oyL/10/",
+      "folder_name": "Создание библиотек",
+      "item_name": "Библиотека функций (1)",
+      "button_type": "jsfiddle",
+      "h_text": "Простой пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/u0st8oyL/1/",
+      "folder_name": "Создание библиотек",
+      "item_name": "Библиотека функций (2)",
+      "button_type": "jsfiddle",
+      "h_text": "Более сложный пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/u0st8oyL/9/",
+      "folder_name": "Создание библиотек",
+      "item_name": "Массив функций (1)",
+      "button_type": "jsfiddle",
+      "h_text": "Простой пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/u0st8oyL/8/",
+      "folder_name": "Создание библиотек",
+      "item_name": "Массив функций (2)",
+      "button_type": "jsfiddle",
+      "h_text": "Более сложный пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/u0st8oyL/7/",
+      "folder_name": "Создание событий",
+      "item_name": "Для одного элемента",
+      "button_type": "jsfiddle",
+      "h_text": "Пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net/garevna/u0st8oyL/4/",
+      "folder_name": "Создание событий",
+      "item_name": "Для нескольких элементов",
+      "button_type": "jsfiddle",
+      "h_text": "Пример в песочнице"
+    },
+    {
+      "type": "window",
+      "url": "https://jsbin.com",
+      "folder_name": "Песочницы",
+      "item_name": "jsbin.com",
+      "button_type": "jsbin",
+      "h_text": "Песочница"
+    },
+    {
+      "type": "window",
+      "url": "https://jsfiddle.net",
+      "folder_name": "Песочницы",
+      "item_name": "jsfiddle.net",
+      "button_type": "jsfiddle",
+      "h_text": "Песочница"
+    }
+  ],
+  "news": []
+}

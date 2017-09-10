@@ -1,0 +1,156 @@
+{
+  "page_title": "html&CSS | Занятие 4",
+  "meta_descr": "html&CSS: Маркированные и нумерованные (упорядоченные) списки. Списки определений. Вложенные списки. Типы селекторов: теговые, классовые, идентификаторные, селекторы-потомки (иерархические, дочерние), атрибутные, псевдоклассовые. Стили списков: свойства list-style-type, list-style-position, list-style-image, list-style",
+  "meta_keywords": "html,list, list-style-type, list-style-position, list-style-image, list-style",
+  "functions": [
+     {
+      "type":"function",
+      "url": "/snippets/html/module_04.js",
+      "func_name": "garevna_html_04",
+      "lib_content": [
+        "selectors-3",
+        "selectors-4",
+        "selectors-5",
+        "selectors-6",
+        "selectors-7",
+        "selectors-8",
+        "attr_selectors",
+        "id_selectors",
+        "pseudo_selectors",
+        "home_work"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    }
+  ],
+  "styles": "atr { display:block; margin-left:100px; } sel { display:block; margin-left:60px; } .article { border:groove 1px white; background-color:#C4F7BE; width:auto; padding:20px; float:left; } .article:before { content:'<article>'; } .article:after { content:'</article>'; } ._p { margin-left:60px; width:auto; } ._p:before { content:'<p>'; } ._p:after { content:'</p>'; } ._div { border:inset 1px; width:auto; background-color:#F7F5C5; margin-left:60px; padding:10px; } ._div:before { content:'<div>'; } ._div:after { content:'</div>'; } ._h3 { margin-left:60px; width:auto; } ._h3:before { content:'<h3>'; } ._h3:after { content:'</h3>' } ._figure { margin-left:60px; width:auto; height:40px; } ._figure:before { content:'<figure>'; } ._figure:after { content:'</figure>'; } .tmp_input { padding:5px 10px; } #container { background-color:black; color:white; width:80%; height:auto; border:groove 1px white; padding:10px 20px; }",
+  "menu_title": "Списки. CSS-селекторы",
+  "src": [
+    {
+      "type": "presentation",
+      "ref": "13jYZmz7N3nbHAz9i9IVaWakbo74eVKLZ0UQQ833yTwg",
+      "folder_name": "Списки",
+      "item_name": "Презентация",
+      "h_text":"Списки. Лекционный материал (презентация PowerPoint)"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-04/sample-work.html",
+      "folder_name": "Списки",
+      "item_name": "Работа на занятии",
+      "button_type": "homework"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_04",
+      "func_name": "home_work",
+      "folder_name": "Списки",
+      "item_name": "Задание на дом",
+      "button_type": "homework"
+    },
+    {
+      "type": "swf",
+      "url": "/swf/html/mod-04/elem_selector.swf",
+      "_background":"#dde",
+      "folder_name": "Мультяшки",
+      "item_name": "Теговые селекторы",
+      "button_type": "flash"
+    },
+    {
+      "type": "swf",
+      "url": "/swf/html/mod-04/id_selector.swf",
+      "_background":"#dde",
+      "folder_name": "Мультяшки",
+      "item_name": "Идентификаторные селекторы",
+      "button_type": "flash"
+    },
+    {
+      "type": "swf",
+      "url": "/swf/html/mod-04/attr_selector.swf",
+      "_background":"#dde",
+      "folder_name": "Мультяшки",
+      "item_name": "Атрибутивные селекторы",
+      "button_type": "flash"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_04",
+      "func_name": "tag_selectors",
+      "folder_name": "Тренажеры",
+      "item_name": "Селекторы элементов (теговые)",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_04",
+      "func_name": "class_selectors",
+      "folder_name": "Тренажеры",
+      "item_name": "Селекторы классов",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_04",
+      "func_name": "id_selectors",
+      "folder_name": "Тренажеры",
+      "item_name": "Идентификаторные селекторы",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_04",
+      "func_name": "attr_selectors",
+      "folder_name": "Тренажеры",
+      "item_name": "Атрибутивные селекторы",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_04",
+      "func_name": "pseudo_selectors",
+      "folder_name": "Тренажеры",
+      "item_name": "Селекторы псевдоклассов",
+      "button_type": "settings"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_04",
+      "func_name": "ierarchy_selectors",
+      "folder_name": "Тренажеры",
+      "item_name": "Иерархические селекторы",
+      "button_type": "settings"
+    },
+     {
+      "type": "function set",
+      "func_set_name": "garevna_html_04",
+      "func_name": "selectors_ierarchy",
+      "folder_name": "demo",
+      "item_name": "Иерархические селекторы",
+      "button_type": "settings"
+    }
+  ],
+  "styleSheets": [
+    "/css/html-panel.css",
+    "/css/css-panel.css"
+  ]
+}

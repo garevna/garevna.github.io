@@ -1,0 +1,86 @@
+{ "galery_name":"Луганск глазами мутантов | выставка | 2005",
+"galery_author":"Филиппова Ирина Гариевна",
+"images": [
+	{ 
+    "url":"/pictures/levels.jpg",
+  "comment":"Название: Уровни | Примечание: Пьянство, память и вера..."
+  },
+	{ 
+    "url":"/pictures/life_in_tin.jpg",
+  "comment":"Название: Жизнь в банке | Примечание: Мировоззрение через дно бутылки. Ограниченность. Жесть"
+  },
+  { "url":"/pictures/inflation.jpg",
+  "comment":"Название: Заложники цен"
+  },
+	{ 
+    "url":"/pictures/luhansk.jpg",
+  "comment":"Название: Тонущий в словах | Примечание: Лохотрон выборов"
+  },
+
+	{ 
+    "url":"/pictures/nihilism.jpg",
+  "comment":"Название: Нигилизм"
+  },
+	{ 
+    "url":"/pictures/excel.jpg",
+  "comment":"Название: Свободу Экселю Майкрософтовичу"
+  },
+
+	{ 
+    "url":"/pictures/life_of_space.jpg",
+  "comment":"Название: Жизнь космоса"
+  },
+	{ 
+    "url":"/pictures/bell.jpg",
+  "comment":"Название: О чем звонит колокол"
+  },
+	{ 
+    "url":"/pictures/genocide.jpg",
+  "comment":"Название: Геноцид"
+  },
+	{ 
+    "url":"/pictures/spring.jpg",
+  "comment":"Название: Весна"
+  },
+	{ 
+    "url":"/pictures/space.jpg",
+  "comment":"Название: Взгляд вечности"
+  },
+	{ 
+    "url":"/pictures/killer.jpg",
+  "comment":"Название: Нутро | Примечание: Убийство наполняет человека черепами жертв"
+  },
+	{ 
+    "url":"/pictures/turn_you_heart.jpg",
+  "comment":"Название: Включи сердце"
+  },
+	{ 
+    "url":"/pictures/dynamit.jpg",
+  "comment":"Название: Динамит интеллекта | Примечание: История террора: манипулирование невежеством масс"
+  },
+	{ 
+    "url":"/pictures/truth_of_love.jpg",
+  "comment":"Название: Истина любви"
+  },
+	{ 
+    "url":"/pictures/Jesus.jpg",
+  "comment":"Название: Иисус"
+  },
+	{ 
+    "url":"/pictures/medicine.jpg",
+  "comment":"Название: Медицина | Примечание: Современное орудие массового уничтожения"
+  },
+	{ 
+    "url":"/pictures/exibition-1.jpg",
+  "comment":"Фото с выставки (перед открытием)"
+  },
+	{ 
+    "url":"/pictures/exibition-2.jpg",
+  "comment":"Фото с выставки | Примечание: Мы - мутанты"
+  },
+	{ 
+    "url":"/pictures/exibition-3.jpg",
+  "comment":"Фото с выставки | Примечание: Мы - мутанты"
+  }
+	]
+  }

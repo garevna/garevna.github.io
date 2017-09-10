@@ -1,0 +1,116 @@
+{
+  "page_title": "html&CSS | Занятие 3",
+  "meta_descr": "html&CSS: Мета-теги. Кодировка символов. Символьные подстановки",
+  "meta_keywords": "html,meta-tag,symbol,code",
+   "functions": [
+    {
+      "type":"library",
+      "url": "/js/slider_library.js",
+      "lib_name": "garevna_sliderLibrary",
+      "lib_content": [
+        "load_data",
+        "buildNavigationPanel",
+        "resize_navi",
+        "getSlidesNumber",
+        "getCurrentSlide"
+      ]
+    },
+    {
+      "type":"function",
+      "url": "/js/video_slider.js",
+      "func_name":"garevnaVideoSlider",
+      "params":"/data_files/html/video_03.json"
+    },
+    {
+      "type":"function",
+      "url": "/snippets/html/module_03.js",
+      "func_name": "garevna_html_03",
+      "lib_content": [
+        "formatting",
+        "logic_structure"
+      ]
+    },
+    {
+      "type":"library",
+      "url": "/snippets/html/functions.js",
+      "lib_name": "garevna_html_css_library",
+      "lib_content": [
+        "clear",
+        "css_attr",
+        "css_class_attr",
+        "css_tag_attr",
+        "getAttrName",
+        "html_attr",
+        "elem_attr",
+        "changeObject",
+        "getAttrInput",
+        "cssInit",
+        "htmlInit",
+        "cssPanelHide",
+        "htmlPanelHide",
+        "buildSelect",
+        "icons"
+      ]
+    }
+    ],
+  "styles":"spn { display:inline-block; box-sizing:border-box; height:25px; margin:0; border:inset 1px; text-align:center; } spn.magenta_white, spn.green_white { font-family:Helvetica, Arial, sans-serif; } .button_img { width:80px; height:auto; } .ref_img { width:50px; height:auto; } dfn { font-family:'Comic Sans MS'; font-size:120%; margin:2px; padding:4px 8px; -webkit-text-shadow:1px 1px 1px rgba(0,0,0,0.5); -moz-text-shadow:1px 1px 1px rgba(0,0,0,0.5); -o-text-shadow:1px 1px 1px rgba(0,0,0,0.5); text-shadow:1px 1px 1px rgba(0,0,0,0.5); color: #960064; }",
+  "menu_title": "Мета-теги",
+  "src": [
+    {
+      "type": "presentation",
+      "ref": "1bXuApjqIjzZwGAg8Ni8SK-eY2bJeKVdGjaMsRe7jOtM",
+      "folder_name": "Материал для изучения",
+      "item_name": "Мета-теги"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_03",
+      "func_name": "symbols_codes",
+      "folder_name": "Материал для изучения",
+      "item_name": "Символьные подстановки",
+      "button_type": "lecture"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_03",
+      "func_name": "codes_of_symbols",
+      "folder_name": "Материал для изучения",
+      "item_name": "Коды символов",
+      "button_type": "lecture"
+    },
+    {
+      "type": "window",
+      "url": "http://brajeshwar.github.io/entities/",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Коды символов",
+      "button_type": "process"
+    },
+    {
+      "type": "window",
+      "url": "http://html.editey.com/",
+      "folder_name": "Вспомогательные ресурсы",
+      "item_name": "Онлайн html редактор",
+      "button_type": "settings",
+      "h_text": "Сервисы Google | Онлайн html редактор"
+    },
+    {
+      "type": "window",
+      "url": "/html-css/module-03/work.html",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Рабочее окно",
+      "button_type": "homework"
+    },
+    {
+      "type": "function set",
+      "func_set_name": "garevna_html_03",
+      "func_name": "home_work",
+      "folder_name": "Рабочий процесс",
+      "item_name": "Задание на дом",
+      "button_type": "homework"
+    }
+  ],
+  "styleSheets": [
+    "/css/css-panel.css",
+    "/css/html-panel.css"
+  ]
+}

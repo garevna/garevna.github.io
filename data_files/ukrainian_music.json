@@ -1,0 +1,122 @@
+{
+  "homeButton":"/animated_buttons.html#/json/main_buttons.json",
+  "videoList":
+[
+  {
+    "type":"video",
+    "content":"7z5IQ2I-dVI",
+    "txt":"Микита Рубченко: Гімн України (рок-версія)"
+  },
+  {
+    "type":"video",
+    "content":"fi0CB4veGQ0",
+    "txt":"Ляпис Трубецкой: Воины света"
+  },
+  {
+    "type":"video",
+    "content":"Ic8Bgd5fXsg",
+    "txt":"Гурт Тік: Я люблю Україну"
+  },
+   {
+    "type":"video",
+    "content":"M03VHm1qUXU",
+    "txt":"Гурт Тінь Сонця: Народна війна"
+  },
+  {
+    "type":"video",
+    "content":"plUPkvexQi4",
+    "txt":"Гурт Тінь Сонця: Меч Арея"
+  },
+  {
+    "type":"video",
+    "content":"HRu3LXOV8rs",
+    "txt":"Плине кача"
+  },
+  {
+    "type":"video",
+    "content":"OBEQleMm8ic",
+    "txt":"Гурт Тінь Сонця: Їхали Козаки"
+  },
+  {
+    "type":"video",
+    "content":"uti-SZYhW1k",
+    "txt":"Гурт Гайдамаки: Дерев'яні щити"
+  },
+  {
+    "type":"video",
+    "content":"ooCcM7p6FQ0",
+    "txt":"Гурт Тінь Сонця: Ніколи не плач"
+  },
+  {
+    "type":"video",
+    "content":"nMS6QfdmcdY",
+    "txt":"Зоряна: Гімн Українських Націоналістів"
+  },
+  {
+    "type":"video",
+    "content":"9MHsiPXqFUM",
+    "txt":"Анастасія Приходько та Микита Рубченко: Герої не вмирають"
+  },
+  {
+    "type":"video",
+    "content":"SHj4dBbbLjU",
+    "txt":"Гурт Океан ельзы: Не твоя війна (АТО)"
+  },
+  {
+    "type":"video",
+    "content":"9cpkFaMaGRM",
+    "txt":"Гурт Океан ельзы: Стріляй"
+  },
+  {
+    "type":"video",
+    "content":"_yrJMOLxdTk",
+    "txt":"Гурт Гайдамаки: Укроп"
+  },
+  {
+    "type":"video",
+    "content":"SNlZ6H4sqro",
+    "txt":"Тартак та Андрій Підлужний: Не плач за мною мамо, коли я загину"
+  },
+  {
+    "type":"video",
+    "content":"hfWkXJN9vC4",
+    "txt":"Гурт Шабля: Браття українці"
+  },
+  {
+    "type":"video",
+    "content":"wJi37XJVB_U",
+    "txt":"Гурт Гайдамаки: Нашим Пацанам"
+  },
+  {
+    "type":"video",
+    "content":"l1XM6Qj-zqo",
+    "txt":"Гурт Океан ельзы: Без Бою"
+  },  
+  {
+    "type":"video",
+    "content":"8Rp9AxRjE9I",
+    "txt":"Христина Панасюк: Дай, Боже, сили нашим солдатам..."
+  },
+  
+  {
+    "type":"video",
+    "content":"nNC554p_fxU",
+    "txt":"Тартак: Ніхто крім нас"
+  },
+  {
+    "type":"video",
+    "content":"lKTIqW6z3c0",
+    "txt":"Гурт Тік: Запах війни"
+  },
+ {
+    "type":"video",
+    "content":"jj1MTTArzPI",
+    "txt":"Анастасия Дмитрук: Никогда мы не будем братьями"
+  },
+  {
+    "type":"video",
+    "content":"moOARdbUaKc",
+    "txt":"Реквієм Небесна Сотня"
+  }
+]
+}

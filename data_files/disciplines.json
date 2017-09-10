@@ -1,0 +1,85 @@
+{
+  
+  "economics": {
+    "main_image": "/images/economics.png",
+    "title": "Экономические дисциплины",
+    "button_images": [
+      "/images/macro/macro-02.png",
+      "/images/labor/helmet.png",
+      "/images/csr/earth_water.png",
+      "/images/operational_management/ico-1.png",
+      "/images/controlling/ico-2.png",
+      "/images/labor_indicators/ico-1.png",
+      "/images/personell/ico-2.png"
+    ],
+    "small_button_image":"/buttons/calendar.png",
+     "hash_prefix": ["html/html_","js/js_","ai/ai_1_","ai/ai_2_","ps/ps_1_","ps/ps_2_","flash/fl_"],
+    "url": [
+      "http://garevna.ucoz.com/metod-mat/macro/macro_new.html",
+      "http://garevna.ucoz.com/metod-mat/labor_economics/lectures_new.html",
+      "http://garevna.ucoz.com/metod-mat/csr/csr_new.html",
+      "http://garevna.ucoz.com//metod-mat/oper_management/oper_management.html",
+      "http://garevna.ucoz.com/metod-mat/controlling/controlling.html",
+      "http://garevna.ucoz.com/metod-mat/labor_figures/laboriousness.pdf",
+      "http://garevna.ucoz.com/metod-mat/pm_dep/lecture_1.pdf"
+    ],
+    "txt": [
+      "Макроэкономика",
+      "Экономика труда и социально-трудовые отношения",
+      "Социальная ответственность",
+      "Операционный менеджмент",
+      "Контроллинг (управление)",
+      "Трудовые показатели",
+      "Служба управления персоналом"
+    ]
+  },
+  "computer": {
+    "main_image": "/logos/step-logo-small.png",
+    "title": "IT",
+    "button_images": [
+      "/buttons/html.png",
+      "/buttons/js.png",
+      "/images/computer/ai-1.png",
+      "/images/computer/ai-2.png",
+      "/images/computer/photoshop-1.png",
+      "/images/computer/photoshop-2.png",
+      "/images/computer/flash-button.png"
+    ],
+    "small_button_image":"/buttons/calendar.png",
+    "hash_prefix": ["html/html_","js/js_","ai/ai_1_","ai/ai_2_","ps/ps_1_","ps/ps_2_","flash/fl_"],
+    "hash_vals":[["01","02","03","04","05","06","07","08","09","10","11"],["01","02","03","04","05","06","07","08","09","10","11"],["01","02","03","04","05"],["01","02","03","04","05","06","07","08","09"],["01","02","03","04","05","06","07","08","09"],["01","02","03","04","05","06","07"],["01","02","03","04","05","06","07","08"]],
+    "url": [
+      "/html-css/index.html",
+      "/illustrator-1/index.html",
+      "/illustrator-2/index.html",
+      "/photoshop-1/index.html",
+      "/photoshop/index.html",
+      "/flash/index.html"
+    ],
+    "txt": [
+      "HTML & CSS",
+      "JavaScript",
+      "Adobe Illustrator (I)",
+      "Adobe Illustrator (II)",
+      "Adobe Photoshop (I)",
+      "Adobe Photoshop (II)",
+      "Adobe Flash"
+    ]
+  },
+  "courseware": {
+    "main_image": "/buttons/js_cup_1.png",
+    "title": "JS courseware",
+    "button_images": [
+      "/buttons/js_cup_1.png"
+    ],
+    "small_button_image":"/buttons/js_cup_1.png",
+    "hash_prefix": ["js/"],
+    "hash_vals":[["01"]],
+    "url": [
+      "/Javascript/courseware/index.html"
+    ],
+    "txt": [
+      "JavaScript"
+    ]
+  }
+}
