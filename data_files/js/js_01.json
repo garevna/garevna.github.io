@@ -2,7 +2,7 @@
   "page_title": "JavaScript | BOM",
   "meta_descr": "JavaScript: Введение. Browser Object Model. Веб-консоль",
   "meta_keywords": "ECMA,AJAX,script,var,typeof,console.log,console.info,console.warn,console.error,console.dir, console.dirxml,console.group,console.groupEnd,console.groupCollapsed,console.time,console.timeEnd",
-  "start_function":"/JavaScript/js_object.js",
+  "start_function":"https://garevna.github.io/js.github.io/js/js_object.js",
   "functions": [
     {
       "type":"function",
